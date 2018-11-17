@@ -14,9 +14,10 @@
       <script>
           new WOW().init();
       </script>
-      <link href="../css/mainstyle.css" type="text/css" rel="stylesheet" />
-    <link href="../css/bounce.css" type="text/css" rel="stylesheet" />
-    <link rel="stylesheet" href="../WOW-master/css/libs/animate.css"/>
+        <link href="../css/mainstyle.css?var=1" type="text/css" rel="stylesheet" />
+        <link href="../css/bounce.css" type="text/css" rel="stylesheet" />
+        <link rel="stylesheet" href="../WOW-master/css/libs/animate.css"/>
+
   </head>
 
   <body>
@@ -77,8 +78,31 @@
       <h1 id="title1">스토리에 맞는 템플릿 자동 추천</h1>
       <h3 id="content1">업로드한 스토리의 개발 분야에 맞는 포트폴리오 템플릿을<br>
       자동으로 추천해드립니다. 템플릿 선택의 고민을 덜어보세요.</h3>
-
+      <img class="photo1" src="../icon/mainpage_photo1.png" alt="photo1">
   </div>
 
+    <div class="wow fadeInRight">
+        <img class="photo2" src="../icon/mainpage_photo2.png" alt="photo2">
+        <h1 id="title2">포트폴리오 자동 구성</h1>
+        <h3 id="content2">사용자의 기본정보와 스토리, 프로젝트 경험만 입력하면<br>
+        자동으로 포트폴리오를 구성해드립니다.<br>
+        완성도 높은 포트폴리오를 짧은 시간만에 만들어보세요.</h3>
+    </div>
+
+    <div class="wow fadeInLeft" id="fadeInLeft2">
+        <h1 id="title3">채용자를 위한 검색 엔진</h1>
+        <h3 id="content3">PPL로 만들어진 포트폴리오를 한눈에 볼 수 있습니다.<br>
+        개발자들의 포트폴리오를 카테고리 별 검색을 통해 검색하고<br>
+        기업에 적합한 인재를 찾으세요.</h3>
+        <img class="photo3" src="../icon/mainpage_photo3.png" alt="photo3">
+    </div>
+
+    <div class="lastment">
+        <h2 class="myportfolio">나만의 포트폴리오,</h2>
+        <div id="imgDiv2">
+            <img src="../icon/mainpage_startbutton2_off.png" onmouseover="this.src='../icon/mainpage_startbutton2_on.png';"
+                 onmouseout="this.src='../icon/mainpage_startbutton2_off.png';" alt="start2" title="start2" /></a>
+        </div>
+    </div>
   </body>
 </html>
