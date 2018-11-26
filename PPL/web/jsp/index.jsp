@@ -14,15 +14,13 @@
       <script>
           new WOW().init();
       </script>
-        <link href="../css/mainstyle.css?var=2" type="text/css" rel="stylesheet" />
+        <link href="../css/mainstyle.css" type="text/css" rel="stylesheet" />
         <link href="../css/bounce.css" type="text/css" rel="stylesheet" />
         <link rel="stylesheet" href="../WOW-master/css/libs/animate.css"/>
 
   </head>
 
   <body>
-
-
 
     <div class="top">
       <!--ppl logo-->

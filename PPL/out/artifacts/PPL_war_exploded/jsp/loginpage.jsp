@@ -9,7 +9,7 @@
 <html>
 <head>
     <link href="../css/mainstyle.css?var=1" type="text/css" rel="stylesheet" />
-    <link href="../css/loginstyle.css?var=1" type="text/css" rel="stylesheet" />
+    <link href="../css/loginstyle.css" type="text/css" rel="stylesheet" />
     <title>loginpage</title>
 </head>
 <body>
@@ -37,6 +37,7 @@
         <h1 class="logintitle">로그인</h1>
         <hr id="topline">
 
+        <!----form tag---->
         <form action ="authentication.jsp" method="post">
             <div class="idbox">
                 <img id="idicon" src="../icon/loginpage_idicon.png" alt="idicon">
@@ -53,6 +54,7 @@
 
             <input class="loginbtn" type="button">
         </form>
+        <!----------------->
 
         <hr id="bottomline">
 
