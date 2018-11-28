@@ -16,13 +16,13 @@
             var passwordCheck = document.getElementById("join_pwck").value;
 
             if(passwordCheck == ""){
-                document.getElementById("passwordCheckText").innerHTML=""
+                document.getElementById("passwordCheckText").innerHTML="알파벳, 숫자, 특수 문자 중 2가지 이상을 혼합한 비밀번호를 입력하세요."
             }
             else if(password!= passwordCheck){
                 document.getElementById("passwordCheckText").innerHTML="<font color=red>비밀번호가 다릅니다.</font>"
             }
             else{
-                document.getElementById("passwordCheckText").innerText="<font color=#1e90ff>비밀번호 확인!</font>"
+                document.getElementById("passwordCheckText").innerText="비밀번호 확인!"
             }
         }
 
@@ -131,9 +131,10 @@
                         <option>- 선택하세요 -</option>
                     </select>
                 </div>
-
+            </form>
                 <hr id="bottomline">
 
+            <form>
                 <input type="checkbox"> 이용약관, 개인정보취급방침 및 개인정보3자제공에 동의합니다.
 
             <input class="joinbtn" type ="button">

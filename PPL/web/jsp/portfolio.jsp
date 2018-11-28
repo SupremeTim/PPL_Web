@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <link href="../css/mainstyle.css?var=1" type="text/css" rel="stylesheet" />
+    <link href="../css/mainstyle.css?var=2" type="text/css" rel="stylesheet" />
     <link href="../css/portfoliostyle.css" type="text/css" rel="stylesheet" />
     <title>portfolio</title>
 </head>
@@ -33,5 +33,29 @@
         <li class ="menu" id ="productmenu"><a href = "product.jsp">PRODUCT</a></li>
     </ul>
 
-</body>
-</html>
+    <div class="pfmenuphrase" id="pffp">당신을 멋지게<br>표현하고 싶으세요?</div>
+    <div class="pfmenuphrase" id="pfsp">우리 서비스 PPL을 통해 당신을 PPL 해보세요.</div>
+
+    <div class="portfolioview">
+        <div class="portfolio1">
+            <img class="portfolioimg" src="../icon/portfoliopage_portfolio1.png" alt="portfolio1">
+        </div>
+
+        <div class="portfolio2">
+            <!--<img class="portfolioimg" src="../icon/portfoliopage_portfolio2.png" alt="portfolio2">-->
+        </div>
+
+        <div class="portfolio3">
+            <!--<img class="portfolioimg" src="../icon/portfoliopage_portfolio3.png" alt="portfolio3">-->
+        </div>
+
+        <div class="portfolio4">
+            <!-- <img class="portfolioimg" src="../icon/portfoliopage_portfolio4.png" alt="portfolio4">-->
+         </div>
+     </div>
+
+    <img id="startbtn" src="../icon/portfoliopage_startbutton_off.png" onmouseover="this.src='../icon/portfoliopage_startbutton_on.png';"
+         onmouseout="this.src='../icon/portfoliopage_startbutton_off.png';" alt="start" title="start" /></a>
+
+ </body>
+ </html>
