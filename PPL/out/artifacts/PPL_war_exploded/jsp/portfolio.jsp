@@ -54,7 +54,7 @@
          </div>
      </div>
 
-    <img id="startbtn" src="../icon/portfoliopage_startbutton_off.png" onmouseover="this.src='../icon/portfoliopage_startbutton_on.png';"
+    <a href="portfolio_basicinfo.jsp"><img id="startbtn" src="../icon/portfoliopage_startbutton_off.png" onmouseover="this.src='../icon/portfoliopage_startbutton_on.png';"
          onmouseout="this.src='../icon/portfoliopage_startbutton_off.png';" alt="start" title="start" /></a>
 
  </body>
