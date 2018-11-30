@@ -1,0 +1,188 @@
+.menu#portfoliiomenu{
+    background: #707070;
+}
+
+.side{
+    position: absolute;
+    top: 200px;
+    width:550px;
+    height: 1050px;
+    border-right: #707070 solid 0.5px;
+}
+
+h1{
+    font-size: 50px;
+    font-family: "Noto Sans CJK KR Regular";
+    text-align: center;
+}
+
+.contents{
+    position: absolute;
+    left: 650px;
+    top: 250px;
+    font-size: 25px;
+}
+
+p.contents_header{
+    font-family: "Noto Sans CJK KR Medium";
+    font-size: 30px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+table{
+    border: solid #707070 0.3px;
+    margin-top: 30px;
+    width: 1000px;
+}
+
+
+th, tr{
+    padding: 15px;
+    text-align: left;
+    font-family: "Noto Sans CJK KR Regular";
+    font-size: 23px;
+    font-weight: lighter;
+}
+
+input[type=checkbox]{
+    width:16px;
+    height: 16px;
+    background-color: white;
+    border-radius: 0;
+}
+
+input::placeholder{
+    font-family: "Noto Sans CJK KR Light";
+    font-size: 15px;
+}
+
+.table_header{
+    background-color: #f3f3f3;
+}
+
+input[type=text]{
+    height: 30px;
+    font-size: 15px;
+    font-family: "Noto Sans CJK KR Light";
+}
+
+h5{
+    font-family: "Noto Sans CJK KR Light";
+    font-size: 16px;
+    margin-top:10px;
+    font-weight: lighter;
+}
+
+.project_experience{
+    margin-top: 50px;
+}
+
+.addprojectbtn{
+    width: 60px; height: 60px;
+    background-image: url(../icon/portfoliopage_plusbutton.png);
+    border-radius: 5px;
+    background-size:60px 60px;
+    cursor: pointer;
+}
+
+.bottomnav{
+    position: inherit;
+    left: 240px;
+    margin-bottom: 100px;
+    margin-top: 80px;
+}
+
+.backbtn{
+    width: 120px; height: 43px;
+    background-image: url(../icon/portfoliopage_backbutton_off.png);
+    border: none;
+    background-size:120px 43px;
+    cursor: pointer;
+}
+
+.backbtn:hover{
+    background-image: url(../icon/portfoliopage_backbutton_on.png);
+    border: none;
+    width:120px;
+    cursor: pointer;
+}
+
+.nextbtn{
+    width: 120px; height: 43px;
+    background-image: url(../icon/portfoliopage_nextbutton_off.png);
+    border: none;
+    background-size:120px 43px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.nextbtn:hover{
+    background-image: url(../icon/portfoliopage_nextbutton_on.png);
+    border: none;;
+    width:120px;
+    cursor: pointer;
+}
+
+.project_form{
+    margin-top:30px;
+    width:900px;
+    height:470px;
+    border: solid darkgrey 1px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    font-family: "Noto Sans CJK KR Light";
+    font-size: 26px;
+    padding:20px;
+}
+textarea{
+    width: 600px;
+    height: 200px;
+    border: solid darkgrey 0.5px;
+    padding: 10px 10px;
+    font-family: "Noto Sans CJK KR Light";
+    font-size: 20px;
+    vertical-align: top;
+}
+
+#project_name, #project_link{
+    width:600px;
+    height:40px;
+    font-family: "Noto Sans CJK KR Light";
+    font-size: 20px;
+    padding: 10px 10px;
+    border: solid darkgrey 0.5px;
+}
+text::placeholder{
+    font-family: "Noto Sans CJK KR Light";
+    font-size: 20px;
+}
+
+.tomargin{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#project_img_ex{
+    margin-top: 0px;
+    margin-left: 175px;
+    font-size: 15px;
+}
+
+.project_storebtn{
+    position: absolute;
+    left:440px;
+    width: 90px; height: 36px;
+    background-image: url(../icon/portfoliopage_projectstore_button.png);
+    border: none;
+    background-size:90px 36px;
+    cursor: pointer;
+}
+
+.project_removebtn{
+    margin-top: 10px;
+    background-image: url(../icon/portfoliopage_projectremove_button.png);
+    border: none;
+    background-size: 20px 20px;
+    width:20px; height:20px;
+    background-color: white;
+}

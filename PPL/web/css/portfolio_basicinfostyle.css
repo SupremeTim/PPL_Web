@@ -86,3 +86,41 @@ textarea::placeholder{
     font-family: "Noto Sans CJK KR Light";
     font-size: 16px;
 }
+
+.bottomnav{
+    position: absolute;
+    top:1350px;
+    left: 44%;
+    margin-bottom: 100px;
+}
+
+.backbtn{
+    width: 120px; height: 43px;
+    background-image: url(../icon/portfoliopage_backbutton_disabled.png);
+    border: none;
+    background-size:120px 43px;
+    cursor: pointer;
+}
+/*
+.backbtn:hover{
+    background-image: url(../icon/portfoliopage_backbutton_on.png);
+    border: none;
+    width:120px;
+    cursor: pointer;
+}*/
+
+.nextbtn{
+    width: 120px; height: 43px;
+    background-image: url(../icon/portfoliopage_nextbutton_off.png);
+    border: none;
+    background-size:120px 43px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.nextbtn:hover{
+    background-image: url(../icon/portfoliopage_nextbutton_on.png);
+    border: none;
+    width:120px;
+    cursor: pointer;
+}
+

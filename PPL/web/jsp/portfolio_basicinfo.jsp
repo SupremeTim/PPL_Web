@@ -9,7 +9,7 @@
 <html>
 <head>
     <link href="../css/mainstyle.css?var=2" type="text/css" rel="stylesheet" />
-    <link href="../css/portfolio_basicinfostyle.css?var=1" type="text/css" rel="stylesheet" />
+    <link href="../css/portfolio_basicinfostyle.css" type="text/css" rel="stylesheet" />
 
     <script language="javascript">
         //자기소개 글자수 제한 체크
@@ -22,8 +22,8 @@
                 frm.focus();
             }
         }
-    </script>
 
+    </script>
 
     <title>basicinfo</title>
 </head>
@@ -87,7 +87,6 @@
                     reader.onload = function (event) {
                     var img = new Image();
                     img.src = event.target.result;
-                    // note: no onload required since we've got the dataurl...I think! :)
                     if (img.width > 560) { // holder width
                         img.width = 560;
                     }
@@ -104,6 +103,7 @@
 
     <div class="contentlabel2">
         나이 공개 여부<br><br>
+        경력 사항 <br><br>
         간단한 소개<br><br>
     </div>
 
@@ -111,9 +111,17 @@
         <label><input type="radio" name="age_open" value="open">공개</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <label><input type="radio" name="age_open" value="close">비공개</label>
         <br><br>
+        <label><input type="radio" name="career" value="new">신입</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label><input type="radio" name="career" value="old">경력</label>
+        <br><br>
         <form name="insertFrm">
             <textarea name="introduceself" onkeyup="len_chk()" placeholder="간단한 자기소개를 작성해주세요.(100자 이내)"></textarea>
         </form>
        </div>
+
+    <div class="bottomnav">
+        <input type="button" class="backbtn" disabled="disabled">
+        <a href = "portfolio_userstory.jsp"><input type="button" class="nextbtn"></a>
+    </div>
 </body>
 </html>

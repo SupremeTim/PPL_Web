@@ -135,7 +135,7 @@
                 <hr id="bottomline">
 
             <form>
-                <input type="checkbox"> 이용약관, 개인정보취급방침 및 개인정보3자제공에 동의합니다.
+                <input type="checkbox" id="agreebox"> <label for="agreebox">이용약관, 개인정보취급방침 및 개인정보3자제공에 동의합니다.</label>
 
             <input class="joinbtn" type ="button">
             </form>

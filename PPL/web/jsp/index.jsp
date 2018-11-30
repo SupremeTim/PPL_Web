@@ -46,7 +46,7 @@
     <div class="mainphrase" id="fp">당신을 <font color="466bff">PPL</font>하세요.</div>
     <div class="mainphrase" id="sp">당신이 어떤사람인지, 우리가 대신 소개할게요.</div>
     <div id="imgDiv">
-      <img src="../icon/mainpage_startbutton_off.png" onmouseover="this.src='../icon/mainpage_startbutton_on.png';"
+      <a href="portfolio.jsp"><img src="../icon/mainpage_startbutton_off.png" onmouseover="this.src='../icon/mainpage_startbutton_on.png';"
            onmouseout="this.src='../icon/mainpage_startbutton_off.png';" alt="start" title="start" /></a>
     </div>
 
@@ -98,7 +98,8 @@
     <div class="lastment">
         <h2 class="myportfolio">나만의 포트폴리오,</h2>
         <div id="imgDiv2">
-            <img src="../icon/mainpage_startbutton2_off.png" onmouseover="this.src='../icon/mainpage_startbutton2_on.png';"
+
+            <a href = "portfolio.jsp"><img src="../icon/mainpage_startbutton2_off.png" onmouseover="this.src='../icon/mainpage_startbutton2_on.png';"
                  onmouseout="this.src='../icon/mainpage_startbutton2_off.png';" alt="start2" title="start2" /></a>
         </div>
     </div>

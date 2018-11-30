@@ -52,9 +52,9 @@ input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholde
 
 }
 input::placeholder{
-    font-family: "Noto Sans CJK KR Light";
-    font-size: 16px;
-}
+     font-family: "Noto Sans CJK KR Light";
+     font-size: 16px;
+ }
 
 #pwicon{
     width: 60px;
