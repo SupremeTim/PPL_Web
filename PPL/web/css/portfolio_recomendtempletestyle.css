@@ -1,0 +1,85 @@
+.menu#portfoliiomenu{
+    background: #707070;
+}
+
+.side{
+    position: absolute;
+    top: 200px;
+    width:550px;
+    height: 650px;
+    border-right: #707070 solid 0.5px;
+}
+
+h1{
+    font-size: 50px;
+    font-family: "Noto Sans CJK KR Regular";
+    text-align: center;
+}
+
+.contents{
+    position: absolute;
+    left: 650px;
+    top: 250px;
+    font-size: 25px;
+    font-family: "Noto Sans CJK KR Regular";
+}
+
+p.contents_header{
+    font-family: "Noto Sans CJK KR Medium";
+    font-size: 30px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+#templete1{
+    border: solid 1px #707070;
+    width: 600px;
+    height: 360px;
+    margin-top: 20px;
+}
+
+#templete2{
+    position: absolute;
+    left:640px;
+    top:75px;
+    border: solid 1px #707070;
+    width: 600px;
+    height: 360px;
+}
+
+.bottomnav{
+    position: absolute;
+    top:850px;
+    left: 44%;
+    margin-bottom: 100px;
+}
+
+.backbtn{
+    width: 120px; height: 43px;
+    background-image: url(../icon/portfoliopage_backbutton_off.png);
+    border: none;
+    background-size:120px 43px;
+    cursor: pointer;
+}
+
+.backbtn:hover{
+    background-image: url(../icon/portfoliopage_backbutton_on.png);
+    border: none;
+    width:120px;
+    cursor: pointer;
+}
+
+.nextbtn{
+    width: 120px; height: 43px;
+    background-image: url(../icon/portfoliopage_nextbutton_off.png);
+    border: none;
+    background-size:120px 43px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.nextbtn:hover{
+    background-image: url(../icon/portfoliopage_nextbutton_on.png);
+    border: none;;
+    width:120px;
+    cursor: pointer;
+}

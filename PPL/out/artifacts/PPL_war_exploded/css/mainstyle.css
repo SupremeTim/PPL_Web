@@ -23,6 +23,13 @@ a{text-decoration: none}
 
 /* login */
 .login{
+     float: right;
+     font-size: 20px;
+     padding-right: 30px;
+     font-family: "Noto Sans CJK KR Bold";
+}
+
+.login_complete{
     float: right;
     font-size: 20px;
     padding-right: 30px;
