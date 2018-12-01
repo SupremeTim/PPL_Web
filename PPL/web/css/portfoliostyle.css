@@ -1,0 +1,73 @@
+.menu#portfoliiomenu{
+    background: #707070;
+}
+
+/*포트폴리오 메뉴의 상단 문구*/
+.pfmenuphrase{
+    position: relative;
+    top: 100px;
+    text-align: center;
+}
+#pffp{ font-size: 70px; margin-bottom: 10px; font-family: "Noto Sans CJK KR Medium"}
+#pfsp{ font-size: 30px; font-family: "Noto Sans CJK KR Regular"}
+
+/*포트폴리오 예시*/
+.portfolioview{
+    position: relative;
+    top:200px;
+    left:200px;
+    width: 1640px;
+}
+
+.portfolio1{
+    left:0px;
+    top:0px;
+    width:800px;
+    height:450px;
+
+}
+
+/*마우스 오버레이*/
+.portfolioimg{
+    max-width: 100%;
+    max-height: 100%;
+    -webkit-transition: .2s all;
+
+}
+.portfolioimg:hover{
+    -webkit-filter: brightness(50%);
+}
+
+.portfolio2{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 800px;
+    border: 1px solid;
+    height: 450px;
+}
+
+.portfolio3{
+    position: absolute;
+    left: 0px;
+    top: 520px;
+    width: 800px;
+    border: 1px solid;
+    height: 450px;
+}
+
+.portfolio4{
+    position: absolute;
+    right: 0px;
+    top: 520px;
+    width: 800px;
+    border: 1px solid;
+    height: 450px;
+}
+
+#startbtn{
+    position: relative;
+    top: 860px;
+    left: 43.5%;
+    margin-bottom: 100px;
+}

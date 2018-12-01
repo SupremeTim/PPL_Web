@@ -1,0 +1,143 @@
+input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder { /* WebKit browsers */ color:transparent; } input:focus:-moz-placeholder, textarea:focus:-moz-placeholder { /* Mozilla Firefox 4 to 18 */ color:transparent; } input:focus::-moz-placeholder, textarea:focus::-moz-placeholder { /* Mozilla Firefox 19+ */ color:transparent; } input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder { /* Internet Explorer 10+ */ color:transparent; }
+
+
+
+.loginbox{
+    width:600px;
+    height:600px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #7c7c7c;
+    border-radius: 10px;
+    position: absolute;
+    left: 725px;
+    top: 230px;
+}
+
+.logintitle{
+    text-align: center;
+    font-family: "Noto Sans CJK KR Bold";
+    font-size: 40px;
+    margin-top: 60px;
+}
+
+#topline{
+    border-bottom: 0px;
+    width: 500px;
+    color: lightgray;
+}
+
+#idicon{
+    width: 60px;
+}
+
+.idbox{
+    border-color: #7c7c7c;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 7px;
+    margin-left: 80px;
+    margin-top: 50px;
+    margin-right:80px;
+    height: 60px;
+}
+
+#idinput{
+    position:absolute;
+    margin-top: 5px;
+    margin-left: 15px;
+    border-width: 0px;
+    height: 50px;
+    width: 300px
+
+}
+input::placeholder{
+     font-family: "Noto Sans CJK KR Light";
+     font-size: 16px;
+ }
+
+#pwicon{
+    width: 60px;
+}
+
+
+.pwbox{
+    border-color: #7c7c7c;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 7px;
+    margin-left: 80px;
+    margin-top: 30px;
+    margin-right:80px;
+    height: 60px;
+}
+
+#pwinput{
+    position:absolute;
+    margin-top: 5px;
+    margin-left: 15px;
+    border-width: 0px;
+    height: 50px;
+    width: 300px
+
+}
+
+/* 로그인 상태 유지 checkbox 속성*/
+input[id="loginstate"] + label{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #707070;
+    position: absolute;
+    left: 80px;
+    top: 380px;
+}
+
+input[id="loginstate"]:checked + label{
+    background:url(../icon/loginpage_loginstate_check.png)
+}
+
+input[id="loginstate"] + label span{
+    position: absolute;
+    top: -2px;
+    left:30px;
+    width: 200px;
+    font-family: "Noto Sans CJK KR Regular";
+    color: #707070;
+    font-size: 16px;
+}
+
+input[id="loginstate"]{
+    display: none;
+}
+
+input.loginbtn{
+    background: url("../icon/loginpage_loginbtn.png") no-repeat;
+    border: none;
+    position: absolute;
+    top: 380px;
+    left: 380px;
+    width: 140px;
+    height: 60px;
+}
+
+#bottomline{
+    margin-top: 140px;
+    border-bottom: 0px;
+    width: 500px;
+    color: lightgray;
+}
+
+a{text-decoration: none}
+a:link{ color: black; font-family: "Noto Sans CJK KR Regular"}
+a:visited { color: black;font-family: "Noto Sans CJK KR Regular"}
+
+
+.findid{
+    margin-left: 160px;
+    margin-right: 20px;
+}
+
+.join{
+    margin-left: 10px;
+}

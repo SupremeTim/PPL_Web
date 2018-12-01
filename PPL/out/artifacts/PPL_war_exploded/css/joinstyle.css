@@ -1,0 +1,135 @@
+.joinbox{
+    width:700px;
+    height:1050px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #7c7c7c;
+    border-radius: 10px;
+    background-color: #fcfcfc;
+    position: absolute;
+    left: 675px;
+    top: 230px;
+    margin-bottom: 100px;
+}
+
+.jointitle{
+    text-align: center;
+    font-family: "Noto Sans CJK KR Bold";
+    font-size: 40px;
+    margin-top: 60px;
+}
+
+hr{
+    border-bottom: 0px;
+    width: 500px;
+    color: lightgray;
+}
+
+.formbox{
+    position: absolute;
+    left: 100px;
+    top:190px;
+    font-family: "Noto Sans CJK KR Regular";
+}
+
+/* text box 속성 정의 */
+input[type="text"]{
+    height: auto; /* 높이값 초기화 */
+    line-height : normal; /* line-height 초기화 */
+    padding: .8em .5em; /* 원하는 여백 설정, 상하단 여백으로 높이를 조절 */
+    margin-top: 10px;
+    font-family: inherit; /* 폰트 상속 */
+    border: 1px solid #707070;
+    border-radius: 0; /* iSO 둥근모서리 제거 */
+    outline-style: none; /* 포커스시 발생하는 효과 제거를 원한다면 */
+    -webkit-appearance: none; /* 브라우저별 기본 스타일링 제거 */
+    -moz-appearance: none;
+    appearance: none;
+}
+
+input[type="password"]{
+    height: auto; /* 높이값 초기화 */
+    line-height : normal; /* line-height 초기화 */
+    padding: .8em .5em; /* 원하는 여백 설정, 상하단 여백으로 높이를 조절 */
+    margin-top: 10px;
+    font-family: inherit; /* 폰트 상속 */
+    border: 1px solid #707070;
+    border-radius: 0; /* iSO 둥근모서리 제거 */
+    outline-style: none; /* 포커스시 발생하는 효과 제거를 원한다면 */
+    -webkit-appearance: none; /* 브라우저별 기본 스타일링 제거 */
+    -moz-appearance: none;
+    appearance: none;
+}
+
+select {
+    margin-top: 10px;
+    width: 164px;
+    height: 45px;
+    padding-left: 10px;
+    font-size: 18px;
+    border: 1px solid #707070;
+    margin-bottom: 60px;
+}
+
+/* 각 text box 크기 정의 */
+.namebox input[type="text"]{
+    width: 500px;
+}
+
+.idbox input[type="text"]{
+    width: 380px;
+}
+
+.emailbox input[type ="text"]{
+    width: 500px;
+}
+
+.phonebox input[type ="text"]{
+    width: 500px;
+}
+
+/* box 사이의 간격 조정 */
+.idbox, .pwbox1, .pwbox2, .phonebox, .birthbox{
+    margin-top: 15px;
+}
+
+/* id 중복확인 버튼 */
+.idcheckbtn{
+    width: 100px;
+    height: 45px;
+    background-color: #707070;
+    position: relative;
+    left: 17px;
+    border: none;
+    font-family: "Noto Sans CJK KR Bold";
+    font-size: 18px;
+    color: white;
+}
+
+.pwbox1 input[type="password"]{
+    width: 235px;
+}
+.pwbox2 input[type="password"]{
+    width: 235px;
+}
+
+.pwbox2{
+    position: absolute;
+    right: 0px;
+    top: 170px;
+}
+
+h5{
+    margin-top:5px;
+    font-family: "Noto Sans CJK KR Light";
+}
+
+input.joinbtn {
+    background: url("../icon/joinpage_joinbtn.png") no-repeat;
+    border: none;
+    position: absolute;
+    top: 730px;
+    left: 340px;
+    width: 160px;
+    height: 60px;
+}
