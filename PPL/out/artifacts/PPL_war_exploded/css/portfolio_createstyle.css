@@ -1,0 +1,108 @@
+.menu#portfoliiomenu{
+    background: #707070;
+}
+
+.side{
+    position: absolute;
+    top: 200px;
+    width:550px;
+    height: 650px;
+    border-right: #707070 solid 0.5px;
+}
+
+h1{
+    font-size: 50px;
+    font-family: "Noto Sans CJK KR Regular";
+    text-align: center;
+}
+
+.contents{
+    position: absolute;
+    left: 650px;
+    top: 250px;
+    font-size: 25px;
+}
+
+p.contents_header{
+    font-family: "Noto Sans CJK KR Medium";
+    font-size: 30px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+#porfolio{
+    border: solid 1px #707070;
+    width: 800px;
+    height: 480px;
+    margin-top: 20px;
+}
+
+.recreatebtn{
+    width: 120px; height: 43px;
+    background-image: url("../icon/portfoliopage_recreatebutton_off.png");
+    border: none;
+    background-size:120px 43px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.recreatebtn:hover{
+    width: 120px; height: 43px;
+    background-image: url("../icon/portfoliopage_recreatebutton_on.png");
+    border: none;
+    background-size:120px 43px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.recreatebtn:active{
+    width: 120px; height: 43px;
+    background-image: url("../icon/portfoliopage_recreatebutton_click.png");
+    border: none;
+    background-size:120px 43px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.createbtn{
+    width: 210px; height: 43px;
+    background-image: url("../icon/portfoliopage_completebutton_off.png");
+    border: none;
+    background-size:210px 43px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.createbtn:hover{
+    width: 210px; height: 43px;
+    background-image: url("../icon/portfoliopage_completebutton_on.png");
+    border: none;
+    background-size:210px 43px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.cancelbtn{
+     width: 120px; height: 43px;
+     background-image: url("../icon/portfoliopage_cancelbutton_off.png");
+     border: none;
+     background-size:120px 43px;
+     cursor: pointer;
+     margin-left: 20px;
+ }
+
+.cancelbtn:hover{
+    width: 120px; height: 43px;
+    background-image: url("../icon/portfoliopage_cancelbutton_on.png");
+    border: none;
+    background-size:120px 43px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.bottomnav{
+    position: absolute;
+    top:850px;
+    left: 38%;
+    margin-bottom: 100px;
+}

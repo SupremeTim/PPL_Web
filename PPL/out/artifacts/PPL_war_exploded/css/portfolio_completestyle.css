@@ -1,0 +1,36 @@
+.menu#portfoliiomenu{
+    background: #707070;
+}
+
+#completement1{
+   font-family: "Noto Sans CJK KR Black";
+    font-size: 45px;
+    text-align: center;
+    margin:20px;
+}
+
+#completement2{
+    font-family: "Noto Sans CJK KR Regular";
+    font-size: 35px;
+    text-align: center;
+    margin:20px;
+}
+
+#completement3{
+    font-family: "Noto Sans CJK KR Regular";
+    font-size: 20px;
+    text-align: center;
+    margin:20px;
+}
+
+#backgroundimg1{
+    position: absolute;
+    left: 280px;
+    top:300px;
+}
+
+#backgroundimg2{
+    position:absolute;
+    right: 100px;
+    bottom:0px;
+}

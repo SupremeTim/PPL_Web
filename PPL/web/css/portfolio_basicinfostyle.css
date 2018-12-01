@@ -124,3 +124,10 @@ textarea::placeholder{
     cursor: pointer;
 }
 
+.nextbtn:active{
+    background-image: url(../icon/portfoliopage_nextbutton_click.png);
+    border: none;
+    width:120px;
+    cursor: pointer;
+}
+

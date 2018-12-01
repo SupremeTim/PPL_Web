@@ -63,7 +63,14 @@ p.contents_header{
 }
 
 .backbtn:hover{
-    background-image: url(../icon/portfoliopage_backbutton_on.png);
+     background-image: url(../icon/portfoliopage_backbutton_on.png);
+     border: none;
+     width:120px;
+     cursor: pointer;
+}
+
+.backbtn:active{
+    background-image: url(../icon/portfoliopage_backbutton_click.png);
     border: none;
     width:120px;
     cursor: pointer;
@@ -80,6 +87,13 @@ p.contents_header{
 .nextbtn:hover{
     background-image: url(../icon/portfoliopage_nextbutton_on.png);
     border: none;;
+    width:120px;
+    cursor: pointer;
+}
+
+.nextbtn:active{
+    background-image: url(../icon/portfoliopage_nextbutton_click.png);
+    border: none;
     width:120px;
     cursor: pointer;
 }

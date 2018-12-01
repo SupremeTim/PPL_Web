@@ -108,6 +108,13 @@ h5{
     cursor: pointer;
 }
 
+.backbtn:active{
+    background-image: url(../icon/portfoliopage_backbutton_click.png);
+    border: none;
+    width:120px;
+    cursor: pointer;
+}
+
 .nextbtn{
     width: 120px; height: 43px;
     background-image: url(../icon/portfoliopage_nextbutton_off.png);
@@ -119,6 +126,20 @@ h5{
 .nextbtn:hover{
     background-image: url(../icon/portfoliopage_nextbutton_on.png);
     border: none;;
+    width:120px;
+    cursor: pointer;
+}
+
+.backbtn:active{
+    background-image: url(../icon/portfoliopage_backbutton_click.png);
+    border: none;
+    width:120px;
+    cursor: pointer;
+}
+
+.nextbtn:active{
+    background-image: url(../icon/portfoliopage_nextbutton_click.png);
+    border: none;
     width:120px;
     cursor: pointer;
 }
