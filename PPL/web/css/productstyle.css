@@ -1,0 +1,118 @@
+.menu#productmenu{
+    background: #707070;
+}
+
+.background{
+    width:100%;
+    height:570px;
+    background-color: #f2f4fc;
+    text-align: center;
+    position: absolute;
+}
+
+.productphrase1{
+    font-family: "Noto Sans CJK KR Bold";
+    font-size:55px;
+}
+
+.productphrase2{
+    font-family: "Noto Sans CJK KR Light";
+    font-size:25px;
+}
+
+.eco{
+    width: 330px; height: 560px;
+    border-radius: 10px;
+    border: solid #707070 1px;
+    background-color: white;
+    text-align: center;
+    position: absolute;
+    left: 400px;
+    top: 370px;
+    margin-bottom: 100px;
+}
+
+.basic{
+    width: 330px; height: 630px;
+    border-radius: 10px;
+    border: solid #707070 1px;
+    background-color: white;
+    text-align: center;
+    position: absolute;
+    left: 860px;
+    top: 300px;
+    margin-bottom: 100px;
+}
+
+.vip{
+    width: 330px; height: 560px;
+    border-radius: 10px;
+    border: solid #707070 1px;
+    background-color: white;
+    text-align: center;
+    position: absolute;
+    left: 1320px;
+    top: 370px;
+    margin-bottom: 100px;
+}
+
+.product_name{
+    font-family: "Noto Sans CJK KR Bold";
+    font-size: 35px;
+
+}
+
+.product_price{
+    font-family: "Noto Sans CJK KR Regular";
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.selectbutton_eco{
+     width:160px; height: 60px;
+     background-image: url("../icon/productpage_selectbutton_off.png");
+     background-size: 160px 60px;
+     cursor: pointer;
+     border: 0px;
+     border-radius: 30px;
+ }
+.selectbutton_eco:hover{
+    width:160px; height: 60px;
+    background-image: url("../icon/productpage_selectbutton_on.png");
+    background-size: 160px 60px;
+    cursor: pointer;
+}
+
+.selectbutton_basic{
+    width:160px; height: 60px;
+    background-image: url("../icon/productpage_selectbutton2_off.png");
+    background-size: 160px 60px;
+    cursor: pointer;
+    border: 0px;
+    border-radius: 30px;
+}
+.selectbutton_basic:hover{
+    width:160px; height: 60px;
+    background-image: url("../icon/productpage_selectbutton2_on.png");
+    background-size: 160px 60px;
+    cursor: pointer;
+}
+
+#recomend_product{
+    color: #ffee98;
+    font-size: 22px;
+    font-family: "Noto Sans CJK KR Bold";
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+hr{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    background-color: #ffee98;
+    height:2px;
+    border:0px;
+    width: 275px;
+
+}
+
