@@ -89,9 +89,8 @@ textarea::placeholder{
 
 .bottomnav{
     position: absolute;
-    top:1350px;
+    top:1400px;
     left: 44%;
-    margin-bottom: 100px;
 }
 
 .backbtn{
@@ -100,14 +99,9 @@ textarea::placeholder{
     border: none;
     background-size:120px 43px;
     cursor: pointer;
+
+    margin-bottom: 100px;
 }
-/*
-.backbtn:hover{
-    background-image: url(../icon/portfoliopage_backbutton_on.png);
-    border: none;
-    width:120px;
-    cursor: pointer;
-}*/
 
 .nextbtn{
     width: 120px; height: 43px;
@@ -116,12 +110,14 @@ textarea::placeholder{
     background-size:120px 43px;
     cursor: pointer;
     margin-left: 20px;
+    margin-bottom: 100px;
 }
 .nextbtn:hover{
     background-image: url(../icon/portfoliopage_nextbutton_on.png);
     border: none;
     width:120px;
     cursor: pointer;
+    margin-bottom: 100px;
 }
 
 .nextbtn:active{
@@ -129,5 +125,6 @@ textarea::placeholder{
     border: none;
     width:120px;
     cursor: pointer;
+    margin-bottom: 100px;
 }
 

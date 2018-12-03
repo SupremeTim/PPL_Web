@@ -3,18 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <link href="../css/mainstyle.css?var=2" type="text/css" rel="stylesheet" />
-    <link href="../css/portfolio_userstorystyle.css?" type="text/css" rel="stylesheet" />
+    <link href="../css/portfolio_userstorystyle.css?var=1" type="text/css" rel="stylesheet" />
 
     <script type="text/javascript">
         function add_div(){
             var div = document.createElement('div');
             div.innerHTML = document.getElementById('project_group').innerHTML;
-            document.getElementById('field').append(div);
+            document.getElementById('field').appendChild(div);
         }
 
         function remove_div(obj){
             document.getElementById('field').removeChild(obj.parentNode);
         }
+
 
     </script>
     <title>userstory</title>
@@ -103,28 +104,33 @@
             <p class="contents_header">프로젝트 경험</p>
             <h5>+버튼을 눌러서 프로젝트를 추가해주세요!</h5>
             <input type="button" class="addprojectbtn" onclick="add_div()">
-                <div id="project_group">
-                    <div class="project_form">
-                        <label for="project_name">프로젝트 이름</label>&nbsp;&nbsp;&nbsp;
-                        <input type="text" id="project_name"> <br>
-                        <div class="tomargin">
-                            <label for="project_info" margin-top="15px">프로젝트 설명</label>&nbsp;&nbsp;&nbsp;
-                            <textarea id="project_info"></textarea> <br>
-                        </div>
-                        <label for="project_link">프로젝트 링크</label>&nbsp;&nbsp;&nbsp;
-                        <input type="text" id="project_link" placeholder="ex) Github 링크"><br>
-                        <div class="tomargin">
-                            <label>첨부파일</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <input type="file">
-                            <h6 id="project_img_ex">프로젝트 대표 이미지로 사용될 이미지를 첨부하세요.</h6>
-                        </div>
-                        <input type="submit" value="" class="project_storebtn">
+
+            <div id="project_group" ><!--style="display:none">-->
+
+                <div class="project_form">
+                    <form>
+                    <label for="project_name">프로젝트 이름</label>&nbsp;&nbsp;&nbsp;
+                    <input type="text" id="project_name"> <br>
+                    <div class="tomargin">
+                        <label for="project_info" margin-top="15px">프로젝트 설명</label>&nbsp;&nbsp;&nbsp;
+                        <textarea id="project_info"></textarea> <br>
                     </div>
-                    <input type ="button" onclick="remove_div(this)" class="project_removebtn">
+                    <label for="project_link">프로젝트 링크</label>&nbsp;&nbsp;&nbsp;
+                    <input type="text" id="project_link" placeholder="ex) Github 링크"><br>
+                    <div class="tomargin">
+                        <label>첨부파일</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="file">
+                        <h6 id="project_img_ex">프로젝트 대표 이미지로 사용될 이미지를 첨부하세요.</h6>
+                    </div>
+                    <input type="submit" value="" class="project_storebtn">
+                    </form>
                 </div>
-            <div id="field">
+                <input type ="button" onclick="remove_div(this)" class="project_removebtn">
+
+
             </div>
 
+            <div id="field"></div>
 
         </div>
         <div class="bottomnav">

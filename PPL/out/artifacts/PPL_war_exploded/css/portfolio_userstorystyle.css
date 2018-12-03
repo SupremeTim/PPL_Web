@@ -6,7 +6,7 @@
     position: absolute;
     top: 200px;
     width:550px;
-    height: 1050px;
+    height: 1500px;
     border-right: #707070 solid 0.5px;
 }
 
@@ -83,12 +83,13 @@ h5{
     background-image: url(../icon/portfoliopage_plusbutton.png);
     border-radius: 5px;
     background-size:60px 60px;
+    border: 1px solid #999999;
     cursor: pointer;
 }
 
 .bottomnav{
     position: inherit;
-    left: 240px;
+    left: 280px;
     margin-bottom: 100px;
     margin-top: 80px;
 }
@@ -99,6 +100,7 @@ h5{
     border: none;
     background-size:120px 43px;
     cursor: pointer;
+    margin-bottom: 100px;
 }
 
 .backbtn:hover{
@@ -106,6 +108,7 @@ h5{
     border: none;
     width:120px;
     cursor: pointer;
+    margin-bottom: 100px;
 }
 
 .backbtn:active{
@@ -113,6 +116,7 @@ h5{
     border: none;
     width:120px;
     cursor: pointer;
+    margin-bottom: 100px;
 }
 
 .nextbtn{
@@ -122,19 +126,14 @@ h5{
     background-size:120px 43px;
     cursor: pointer;
     margin-left: 20px;
+    margin-bottom: 100px;
 }
 .nextbtn:hover{
     background-image: url(../icon/portfoliopage_nextbutton_on.png);
-    border: none;;
-    width:120px;
-    cursor: pointer;
-}
-
-.backbtn:active{
-    background-image: url(../icon/portfoliopage_backbutton_click.png);
     border: none;
     width:120px;
     cursor: pointer;
+    margin-bottom: 100px;
 }
 
 .nextbtn:active{
@@ -142,17 +141,18 @@ h5{
     border: none;
     width:120px;
     cursor: pointer;
+    margin-bottom: 100px;
 }
 
 .project_form{
-    margin-top:30px;
+    margin-top:40px;
     width:900px;
     height:470px;
     border: solid darkgrey 1px;
     border-radius: 10px;
     background-color: #f9f9f9;
     font-family: "Noto Sans CJK KR Light";
-    font-size: 26px;
+    font-size: 20px;
     padding:20px;
 }
 textarea{
@@ -161,32 +161,36 @@ textarea{
     border: solid darkgrey 0.5px;
     padding: 10px 10px;
     font-family: "Noto Sans CJK KR Light";
-    font-size: 20px;
+    font-size: 18px;
     vertical-align: top;
+    overflow: hidden;
+    margin-bottom: 10px;
 }
 
 #project_name, #project_link{
     width:600px;
-    height:40px;
+    height:30px;
     font-family: "Noto Sans CJK KR Light";
-    font-size: 20px;
-    padding: 10px 10px;
+    font-size: 18px;
+    padding: 5px 5px;
     border: solid darkgrey 0.5px;
+    margin-top: 20px;
+    vertical-align: center;
 }
 text::placeholder{
     font-family: "Noto Sans CJK KR Light";
-    font-size: 20px;
+
 }
 
 .tomargin{
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 10px;
 }
 
 #project_img_ex{
     margin-top: 0px;
-    margin-left: 175px;
+    margin-left: 135px;
     font-size: 15px;
+    font-weight: lighter;
 }
 
 .project_storebtn{
@@ -200,6 +204,8 @@ text::placeholder{
 }
 
 .project_removebtn{
+    position: absolute;
+    right:70px;
     margin-top: 10px;
     background-image: url(../icon/portfoliopage_projectremove_button.png);
     border: none;
@@ -207,3 +213,4 @@ text::placeholder{
     width:20px; height:20px;
     background-color: white;
 }
+
