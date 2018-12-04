@@ -1,0 +1,19 @@
+PPL-template-3
+포토폴리오 이름 : portfolio_name
+자기소개 : my_info
+이름 : my_name
+나이 : my_age
+전화번호 : my_phone
+이메일 : my_email
+학교 : my_school
+(복수) - project-many   --주의 귀찮아서 프로젝트 4개까지만 되게 해놓음--
+프로젝트 이름 : project_name
+프로젝트 github 주소 : (id = project_address_id), (name = project_address_name)
+프로젝트 설명 : project_explanation
+(복수 - experience-many)
+경력 기간 : experience_term
+경력 이름 : experience_name
+경력 설명 : experience_content
+(복수 - language_bar)
+할수있는 언어 : language_name
+할수있는 언어 정도 : percent_name

@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <!-- google analytics stuffs-->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114952259-1"></script>
+    <script>
+     window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-114952259-1');
+    </script>
+
+
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat|Pridi" rel="stylesheet">
+
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <title>PPL</title>
+  </head>
+  <body>
+    <div id="topHeader" class="navbar fixed-top bg-inverse navbar-toggleable-md navbar-inverse justify-content-end">
+
+      <!--
+      <img id="github" class="navbarIcon animated invisible" src="images/github-logo.png" alt="GitHub" data-toggle="tooltip" title="GitHub" onclick="window.open('https://github.com/seungmin97', '_blank');">
+      <img id="facebook" class="navbarIcon animated Invisible" src="images/facebook.png" alt="Facebook" data-toggle="tooltip" title="Facebook" onclick="window.open('https://www.facebook.com/leeseungmin97', '_blank');">
+    -->
+    </div>
+
+    <div class="container-fluid">
+
+      <div class="row">
+        <div id="introCol" class="col-md-12">
+          <div class ="introWrapper centerIt">
+            <div id="introTitle" name="portfolio_name" class="mainTitle invisible"></div>
+            <div id="introSubtitle" name="my_name" class="subTitle invisible">  </div>
+            <div id="introArrowContainer" style="display: inline-block; transform: scale(2.5,1.25);">
+              <a id="introArrowButton" class="scroll invisible" href="#aboutMeCol">
+                <i id="introArrow" class="fas fa-angle-double-down" ></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+          <div name="aboutMeCol" id="aboutMeCol" class="col-md-12">
+              <div class="aboutMeWrapper">
+                <div id="aboutMeCard" class="aboutMeCard animated invisible">
+                  <div class="row">
+                    <div class="col-md-5 my-auto">
+                      <!--받아와야 하는 것-->
+                      <img name="my_image" id="my_image_id" class="img-fluid">
+                    </div>
+                    <div class="col-md-7">
+                      <div class="aboutMeHeader">
+                        About Me
+                      </div>
+                      <div class="aboutMeContent">
+                       name : <div name="my_name"></div>
+                        age : <div name="my_age"></div>
+                        phone : <div name="my_phone"></div>
+                        email : <div name="my_email"></div>
+                        school : <div name="my_school"></div><br>
+                        <div name = "my_info"></div>
+                      </div>
+
+                      <div class="aboutMeHeader">
+                        Languages
+                      </div>
+                      <div class="aboutMeFrameworks">
+                        <!--받아와야 하는 것-->
+                        <a name="language_bar">
+                        <a class="contentIcon" name="language_name" ></a>
+                          <a class="contentIconn" name="percent_name" ></a>
+                          <a class="contentIconnn">%</a>
+                       </a>
+
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+          </div>
+      <div class="row">
+        <div name="projectsCol" id="projectsCol" class="col-md-12">
+          <div class="projectsWrapper">
+            <div class="row" style="height: 100%">
+              <div id="projectCard1" class="col-md-12 animated invisible">
+                <!--받아와야 할것-->
+
+                <div ><a style="font-size: 35px; color: #ffffff">project</a></div><br><br>
+
+             <div name = project-many>
+                <div class="card">
+                  <!--받아와야 할것-->
+                  <div name="project_name" class="cardTitle">
+                  </div>
+                  <div name="project_explanation"  class="cardText">
+                  </div><br>
+                  <a name="project_address_name" id="project_address_id" href="" target="_blank">
+
+                  </a>
+                </div>
+                <br><br><br>
+
+             </div>
+
+                <div ><a style="font-size: 35px; color: #ffffff">experience</a></div><br><br>
+
+                <div name = experience-many>
+                  <div class="card">
+                    <!--받아와야 할것-->
+                    <div name="experience_name" class="cardTitle">
+                    </div>
+            <div class = "cardduration">
+                    <a name="experience_term" class="cardduration"></a>년
+            </div>
+                    <div name="experience_content"  class="cardText">
+                    </div><br>
+                  </div>
+                  <br><br><br>
+
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+            src="http://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+  </body>
+</html>

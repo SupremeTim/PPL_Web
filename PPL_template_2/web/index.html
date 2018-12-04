@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+
+<html taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" xmlns="http://www.w3.org/1999/xhtml" xmlns:c="http://java.sun.com/jstl/core">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta charset="utf-8">
+    <script src = "experience.js"></script>
+    <title>PPL</title>
+    <script language="JavaScript"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700,800" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+<!-- BEGIN NAVBAR -->
+<div class="navbar">
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#education">Education</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+</div>
+<!-- END NAVBAR -->
+
+<div class="container">
+
+    <!-- HEADER -->
+    <div class="jumbotron">
+        <div class="jumbotron-text">
+            <!--받아올 부분-->
+            <h1 name = "portfolio_name"id = "name"></h1>
+
+        </div>
+        <br><br><br>
+
+    </div>
+    <!-- END HEADER -->
+
+
+
+    <!-- BEGIN ABOUT -->
+    <div class="row white box-shadow">
+        <div class="side-content"></div>
+        <div class="main-content">
+            <div class="content-header">
+                <a class="anchor" name="about"></a>
+                <h2>About</h2>
+            </div>
+
+
+            <div id="about_content"  class="content-body">
+
+                        <span >Name : <a name="my_name"></a></span>
+                        <!--받아와야 하는 것-->
+<br>
+                    <span>Age :<a name="my_age"></a> </span>
+                        <!--받아와야 하는 것-->
+<br>
+                    <span>Phone :<a name="my_phone"></a> </span>
+                        <!--받아와야 하는 것-->
+<br>
+                    <span>Email : <a name="my_email"></a></span>
+<br>
+                   <span>School : <a name="my_school"></a></span>
+                        <!--받아와야 하는 것-->
+        <br><br><br>
+        <div name="my_info">                <!--받아올 부분-->
+
+        </div>
+
+            </div>
+        </div>
+        <div class="side-content"></div>
+    </div>
+    <!-- END ABOUT -->
+
+    <!-- BEGIN EXPERIENCE -->
+    <div class="row">
+        <div class="side-content"></div>
+        <div class="main-content">
+            <div class="content-header">
+                <a class="anchor" name="experience"></a>
+                <h2>Experience</h2>
+            </div>
+    <div name="experience-many">
+            <div class="content-body" id="content">
+
+                <div class="card">
+                    <div class="card-header">
+                        <h4><a name="experience_name"></a></h4>
+                        <span class="job-title" name="experience_term"></span></h4>
+                    </div>
+                    <div class="card-content" name="experience_content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="side-content"></div>
+
+    <!-- END EXPERIENCE -->
+
+
+    <!-- BEGIN PROJECTS -->
+    <div class="row">
+        <div class="side-content-sm"></div>
+        <div class="main-content-lg">
+            <div class="content-header">
+                <a class="anchor" name="projects"></a>
+                <h2>Projects</h2>
+            </div>
+            <div class="content-body">
+                <!-- CARD #1 -->
+                <div class="project-card" name="project-many">
+                    <div class="project-image">
+                        <img src="http://placehold.it/250x350">
+                    </div>
+                    <div class="project-content">
+                        <h4><a name="project_name"></a></h4>
+                        <p name="project_explanation"></p>
+                        <a id="project_address_id" name="project_address_name" href=""></a>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="side-content-sm"></div>
+    </div>
+    <!-- END PROJECTS -->
+
+    <!-- BEGIN SKILLS -->
+    <div class="row white box-shadow">
+        <div class="side-content"></div>
+        <div class="main-content">
+            <div class="content-header">
+                <a class="anchor" name="skills"></a>
+                <h2>Skills</h2>
+            </div>
+            <div class="content-body">
+                <!--받아와야하는것-->
+                <ul class="ul-skills">
+                    <li class="li-skills" name="language_bar"><div name="language_name"></div><div name="percent_name">%</div></div></li>
+
+
+                </ul>
+            </div>
+        </div>
+        <div class="side-content"></div>
+    </div>
+    <!-- END SKILLS -->
+
+</div>
+</body>
+</html>
