@@ -51,6 +51,7 @@ h1{
 #holder{
     width: 200px;
     height: 200px;
+    object-fit: contain;
 }
 
 .contentlabel2{

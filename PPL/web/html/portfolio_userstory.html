@@ -16,6 +16,10 @@
             document.getElementById('field').removeChild(obj.parentNode);
         }
 
+        function mySubmit(){
+            document.abilityForm.action='';
+            document.joinForm.submit();
+        }
 
     </script>
     <title>userstory</title>
@@ -47,7 +51,7 @@
         <p class="contents_header">개인 역량</p>
         <div class="ability">
 
-            <form action="" method="post">
+            <form method="post" name = "abilityForm">
                 <table class="develop_field">
                     <tr>
                         <th class="table_header" colspan="5"> 개발 분야 </th>
@@ -135,8 +139,9 @@
         </div>
         <div class="bottomnav">
             <a href = "portfolio_basicinfo.html"><input type="button" class="backbtn" ></a>
-            <a href = "portfolio_recomendtemplete.html"><input type="button" class="nextbtn"></a>
+            <input type="button" class="nextbtn" value="" onclick="mySubmit()">
         </div>
+
     </div>
 
 

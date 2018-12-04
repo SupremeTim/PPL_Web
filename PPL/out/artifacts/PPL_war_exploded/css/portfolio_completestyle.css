@@ -34,3 +34,14 @@
     right: 100px;
     bottom:0px;
 }
+
+.tohome{
+    text-align: center;
+    color: #466bff;
+    font-size: 30px;
+    font-family: "Noto Sans CJK KR Regular";
+    margin-top: 150px;
+}
+
+.tohome a:visited { color: #466bff;font-family: "Noto Sans CJK KR Regular"}
+.tohome a:hover { color: #466bff;font-family: "Noto Sans CJK KR Regular"}

@@ -40,30 +40,20 @@
 
         }
 
-        function LoginIdCheck(){
+        function mySubmit(index) {
             var mberIdExp = /[^(0-9A-Za-z)]/;
-            if(mberIdExp.test(document.checkForm.nick.value)){
+            if (mberIdExp.test(document.joinForm.nick.value)) {
                 alert("아이디는 영문자와 숫자로만 입력하세요");
-            }else{
-                document.checkForm.action ="";
-                document.checkForm.submit();
+            } else {
+
+                if (index == 1) {
+                    document.joinForm.action = "";
+                } else if (index == 2) {
+                    document.joinForm.action = "";
+                }
+                document.joinForm.submit();
             }
         }
-
-        function returnId(){
-            mberIdExp = /[^(0-9A-Za-z)]/;
-            var retVal="";
-
-            if(document.checkForm.usedCnt.value == 0){
-                retVal = document.checkForm.resultId.value;
-                window.returnValue = retVal;
-                window.close();
-            }else{
-                alert("아이디 중복여부가 확인되지 않았습니다.");
-                return;
-            }
-        }
-
     </script>
 
 
@@ -94,7 +84,7 @@
         <h1 class="jointitle">회원가입</h1>
         <hr id="topline">
         <div class="formbox">
-            <form action="/auth/join" method="post">
+            <form  method="post" name="joinForm">
                 <!-name->
                 <div class="namebox">
                 <label for="join_name">이름</label><br>
@@ -107,7 +97,7 @@
                     <input type="hidden" name="resultId" value="0" />
                     <label for="join_id">아이디</label><br>
                     <input type="text" id="join_id" name="nick">
-                    <a href="" onclick="LoginIdCheck(); return false;" class="idcheckbtn">중복확인</a>
+                    <input type="button" onclick="mySubmit(1)" class="idcheckbtn" value="중복확인">
                 </div>
 
                 <!-password->
@@ -149,7 +139,7 @@
             <form>
                 <input type="checkbox" id="agreebox"> <label for="agreebox">이용약관, 개인정보취급방침 및 개인정보3자제공에 동의합니다.</label>
 
-            <input class="joinbtn" type ="submit" value="">
+            <input class="joinbtn" type="button" onclick="mySubmit(2)" value="">
             </form>
         </div>
 
