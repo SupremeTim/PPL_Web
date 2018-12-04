@@ -203,7 +203,7 @@ text::placeholder{
     cursor: pointer;
 }
 
-.project_removebtn{
+#project_removebtn{
     position: absolute;
     right:70px;
     margin-top: 10px;
