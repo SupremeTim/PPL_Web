@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link href="../css/mainstyle.css?var=2" type="text/css" rel="stylesheet" />
-    <link href="../css/portfolio_basicinfostyle.css" type="text/css" rel="stylesheet" />
+    <link href="../css/portfolio_basicinfostyle.css?var=1" type="text/css" rel="stylesheet" />
 
     <script language="javascript">
         //자기소개 글자수 제한 체크
@@ -60,7 +60,11 @@
         <!-- 파일 첨부-->
         <div id="status"> </div>
         <div id="holder"><img src="../icon/portfoliopage_profilebox.png" alt="profilebox" width="200px" height="200px"></div>
-        <p><input type=file></p>
+        <div class="filebox"> <p>
+            <label for="file_btn">파일 선택</label>
+            <input type="file" id="file_btn"></p>
+        </div>
+
         <script>
             var upload = document.getElementsByTagName('input')[0],
                 holder = document.getElementById('holder'),
@@ -81,9 +85,7 @@
                     reader.onload = function (event) {
                     var img = new Image();
                     img.src = event.target.result;
-                    if (img.width > 200) { // holder width
-                        img.width = 200;
-                    }
+                    img.height = 200;
                     holder.innerHTML = '';
                     holder.appendChild(img);
                 };

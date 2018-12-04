@@ -11,7 +11,8 @@ a{text-decoration: none}
 .mainmenu a:hover { color: #466bff;font-family: "Noto Sans CJK KR Bold"}
 .login_complete a:visited { color: black; font-family: "Noto Sans CJK KR Regular"}
 .login_complete a:link{ color: black; font-family: "Noto Sans CJK KR Regular"}
-
+.me, .setting, .logout a:visited{color: black; font-family: "Noto Sans CJK KR Regular"}
+.me, .setting, .logout a:link{color: black; font-family: "Noto Sans CJK KR Regular"}
 
 .top{
     margin-top: 20px;
