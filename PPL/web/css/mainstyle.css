@@ -9,6 +9,9 @@ a{text-decoration: none}
 .mainmenu a:link{ color: #ffffff; font-family: "Noto Sans CJK KR Bold"}
 .mainmenu a:visited { color: #ffffff;font-family: "Noto Sans CJK KR Bold"}
 .mainmenu a:hover { color: #466bff;font-family: "Noto Sans CJK KR Bold"}
+.login_complete a:visited { color: black; font-family: "Noto Sans CJK KR Regular"}
+.login_complete a:link{ color: black; font-family: "Noto Sans CJK KR Regular"}
+
 
 .top{
     margin-top: 20px;
@@ -244,3 +247,12 @@ h3{
     margin-bottom: 100px;
     margin-left: 25px;
 }
+
+.logoutbtn{
+    border: none;
+    font-size: 20px;
+    background-color: white;
+    font-family: "Noto Sans CJK KR Regular";
+
+}
+

@@ -19,40 +19,57 @@
             }
         }
 
-        window.onload = init;
-        function init()
-        {
-            setDate(document.birthbox);
-        }
+        function setDate(FORM, year, month, day) {
 
-        function setDate(FORM, year, month, day)
-        {
             var current, year, month, day, days, i, j;
             current = new Date();
-            year = (year) ? year : current.getFullYear();
-            for (i=0, j=year-1; i < 5; i++, j++) FORM.year.options[i] = new Option(j, j);
-            month = (month) ? month : current.getMonth()+1;
-            for (i=0; i < 12; i++) {
-                j = (i < 9) ? '0'+(i+1) : i+1;
+            for (i = 0, j = current.getFullYear() -60; i < 60; i++, j++) FORM.year.options[i] = new Option(j, j);
+            for (i = 0; i < 12; i++) {
+                j = (i < 9) ? '0' + (i + 1) : i + 1;
                 FORM.month.options[i] = new Option(j, j);
             }
-            day = (day) ? day : current.getDate();
-            days = new Date(new Date(year, month, 1)-86400000).getDate();
+            days = new Date(new Date(year, month, 1) - 86400000).getDate();
             FORM.day.length = 0;
-            for (i=0, j; i < days; i++) {
-                j = (i < 9) ? '0'+(i+1) : i+1;
+            for (i = 0, j; i < days; i++) {
+                j = (i < 9) ? '0' + (i + 1) : i + 1;
                 FORM.day.options[i] = new Option(j, j);
             }
             FORM.year.value = year;
-            FORM.month.options[month-1].selected = true;
-            FORM.day.options[day-1].selected = true;
+            FORM.month.options[month - 1].selected = true;
+            FORM.day.options[day - 1].selected = true;
+
         }
+
+        function LoginIdCheck(){
+            var mberIdExp = /[^(0-9A-Za-z)]/;
+            if(mberIdExp.test(document.checkForm.nick.value)){
+                alert("아이디는 영문자와 숫자로만 입력하세요");
+            }else{
+                document.checkForm.action ="";
+                document.checkForm.submit();
+            }
+        }
+
+        function returnId(){
+            mberIdExp = /[^(0-9A-Za-z)]/;
+            var retVal="";
+
+            if(document.checkForm.usedCnt.value == 0){
+                retVal = document.checkForm.resultId.value;
+                window.returnValue = retVal;
+                window.close();
+            }else{
+                alert("아이디 중복여부가 확인되지 않았습니다.");
+                return;
+            }
+        }
+
     </script>
 
 
     <title>joinpage</title>
 </head>
-<body>
+<body onload="setDate(document.forms[0])">
 
     <div class="top">
         <!--ppl logo-->
@@ -86,9 +103,11 @@
 
                 <!-id->
                 <div class="idbox">
+                    <input type="hidden" name="usedCnt" value="0"/>
+                    <input type="hidden" name="resultId" value="0" />
                     <label for="join_id">아이디</label><br>
                     <input type="text" id="join_id" name="nick">
-                    <input type="button" class="idcheckbtn" value="중복확인">
+                    <a href="" onclick="LoginIdCheck(); return false;" class="idcheckbtn">중복확인</a>
                 </div>
 
                 <!-password->
