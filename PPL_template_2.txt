@@ -11,6 +11,7 @@ PPL-template-2
 경력 이름 : experience_name
 경력 설명 : experience_content
 (복수) - project-many 
+프로젝트 이미지 : project_image
 프로젝트 이름 : project_name
 프로젝트 github 주소 : (id = project_address_id), (name = project_address_name)
 프로젝트 설명 : project_explanation
