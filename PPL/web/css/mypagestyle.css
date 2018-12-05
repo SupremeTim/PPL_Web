@@ -1,0 +1,186 @@
+.my_background{
+    margin: auto;
+    width: 1400px; height: 865px;
+    background-color: #f2f4fc;
+}
+
+h1{
+    margin-top:0px;
+    margin-left: 120px;
+    position: absolute;
+    top: 180px;
+    font-family: "Noto Sans CJK KR Black";
+    font-size: 40px;
+}
+
+.user_info{
+    margin-left: 120px;
+    position: absolute;
+    top: 260px;
+    width: 520px; height: 300px;
+    border-radius: 10px;
+    border: 1px solid #999999;
+    background-color: white;
+}
+
+h2{
+    margin-left: 30px;
+    font-family: "Noto Sans CJK KR Regular";
+    font-size:26px;
+}
+
+hr{
+    width: 460px;
+}
+
+.content_label1{
+    margin-left: 50px;
+    margin-top: 27px;
+    font-family: "Noto Sans CJK KR Regular";
+    font-size: 20px;
+
+}
+
+.contents1{
+    position: absolute;
+    left: 200px; top: 100px;
+}
+
+.user_info input[type="text"]{
+    width: 260px; height:34px;
+    font-family: "Noto Sans CJK KR Light";
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.storebtn{
+    margin-top: 20px;
+    margin-left: 120px;
+    width: 180px; height: 42px;
+    background-image: url("../icon/mypage_storebutton_off.png");
+    background-size: 180px 42px;
+    border: none;
+    background-color: white;
+
+}
+.storebtn:hover{
+    width: 180px; height: 42px;
+    background-image: url("../icon/mypage_storebutton_on.png");
+    background-size: 180px 42px;
+    border: none;
+    background-color: white;
+
+}
+
+.user_password{
+    margin-left: 120px;
+    position: absolute;
+    top: 600px;
+    width: 520px; height: 380px;
+    border-radius: 10px;
+    border: 1px solid #999999;
+    background-color: white;
+}
+
+.content_label2{
+    margin-left: 50px;
+    margin-top: 27px;
+    font-family: "Noto Sans CJK KR Regular";
+    font-size: 20px;
+
+}
+
+.contents2{
+    position: absolute;
+    left: 200px; top: 110px;
+}
+
+.user_password input[type="password"]{
+    width: 260px; height:34px;
+    font-family: "Noto Sans CJK KR Light";
+    font-size: 18px;
+}
+
+#to_margin1{
+    margin-top:20px;
+}
+
+#to_margin2{
+    margin-top:15px;
+}
+
+#find_password{
+    margin-left: 160px;
+    color: #466bff;
+    font-family: "Noto Sans CJK KR Light";
+    font-size: 16px;
+}
+
+.user_portfolio{
+    margin-left: 680px;
+    position: absolute;
+    top: 260px;
+    width: 600px; height:480px;
+    border-radius: 10px;
+    border: 1px solid #999999;
+    background-color: white;
+}
+
+.user_portfolio hr{
+    width: 540px;
+}
+
+#portfolio_name{
+    font-family: "Noto Sans CJK KR Regular";
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.contents3{
+    margin-left: 50px;
+}
+
+.portfolio_img{
+    width: 380px; height: 210px;
+    background-color: #cdcdcd;
+}
+
+.portfolio_info1{
+    position:absolute;
+    left: 450px; top: 130px;
+}
+
+.portfolio_info1 p{
+
+    font-family: "Noto Sans CJK KR Regular";
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+span{
+    margin-left: 50px;
+    font-size: 16px;
+    font-family: "Noto Sans CJK KR Regular";
+}
+
+.updatebtn{
+    width: 130px; height: 42px;
+    background-image: url("../icon/mypage_updatebutton_off.png");
+    background-size: 130px 42px;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 240px;
+    border: none;
+}
+
+.updatebtn:hover{
+    width: 130px; height: 42px;
+    background-image: url("../icon/mypage_updatebutton_on.png");
+    background-size: 130px 42px;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 240px;
+    border: none;
+}
