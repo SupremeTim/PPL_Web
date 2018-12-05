@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link href="../css/mainstyle.css?var=2" type="text/css" rel="stylesheet" />
-    <link href="../css/portfolio_basicinfostyle.css?var=1" type="text/css" rel="stylesheet" />
+    <link href="../css/portfolio_basicinfostyle.css?var=2" type="text/css" rel="stylesheet" />
 
     <script language="javascript">
         //자기소개 글자수 제한 체크
@@ -15,6 +15,36 @@
                 frm.value = frm.value.substring(0, 100);
                 frm.focus();
             }
+        }
+
+        function len_chk2() {
+            var frm = document.insertFrm.introduceself;
+
+            if (frm.value.length > 40) {
+                alert("자기소개의 글자수는 100자로 제한됩니다.");
+                frm.value = frm.value.substring(0, 40);
+                frm.focus();
+            }
+        }
+
+        function visibleCareer(){
+            var career_name = document.getElementById('career_name');
+            var career_duration = document.getElementById('career_duration');
+            var career_info = document.getElementById('career_info');
+            career_name.disabled = false;
+            career_duration.disabled = false;
+            career_info.disabled = false;
+
+        }
+
+        function invisibleCareer(){
+            var career_name = document.getElementById('career_name');
+            var career_duration = document.getElementById('career_duration');
+            var career_info = document.getElementById('career_info');
+            career_name.disabled = true;
+            career_duration.disabled = true;
+            career_info.disabled = true;
+
         }
 
     </script>
@@ -100,20 +130,29 @@
     <div class="contentlabel2">
         나이 공개 여부<br><br>
         경력 사항 <br><br>
-        간단한 소개<br><br>
     </div>
 
     <div class="contents2">
         <label><input type="radio" name="age_open" value="open">공개</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <label><input type="radio" name="age_open" value="close">비공개</label>
         <br><br>
-        <label><input type="radio" name="career" value="new">신입</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <label><input type="radio" name="career" value="old">경력</label>
+        <label><input type="radio" name="career" value="new" onclick="invisibleCareer()">신입</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label><input type="radio" name="career" value="old" onclick="visibleCareer()">경력</label>
+        <div class="career_box" disabled="true">
+            경력 이름: <input type ="text" disabled="true" id="career_name"><br>
+            경력 기간: <input type = "text" disabled="true" id="career_duration"><br>
+            경력 소개: <textarea placeholder="경력에 대한 간단한 소개를 해주세요.(40자 이내)" onkeyup="len_chk2()" disabled="true" id="career_info"> </textarea>
+        </div>
+
+        <div id="field"></div>
         <br><br>
+    </div>
+    <div class="label_contents3">
+        간단한 소개
         <form name="insertFrm">
             <textarea name="introduceself" onkeyup="len_chk()" placeholder="간단한 자기소개를 작성해주세요.(100자 이내)"></textarea>
         </form>
-       </div>
+    </div>
 
     <div class="bottomnav">
         <input type="button" class="backbtn" disabled="disabled">

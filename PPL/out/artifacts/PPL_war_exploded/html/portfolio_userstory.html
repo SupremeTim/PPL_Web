@@ -6,11 +6,17 @@
     <link href="../css/portfolio_userstorystyle.css?var=1" type="text/css" rel="stylesheet" />
 
     <script type="text/javascript">
+
+        var projectIndex = 0;
+
         function add_div(){
             var div = document.createElement('div');
+            div.id = "added_"+projectIndex;
             div.innerHTML = document.getElementById('project_group').innerHTML;
             document.getElementById('field').appendChild(div);
+            projectIndex++;
             setProjectIndex();
+
         }
 
         function remove_div(obj){
@@ -22,10 +28,10 @@
             document.abilityForm.submit();
         }
 
-        var projectIndex = 0;
+
         function setProjectIndex(){
             document.getElementById("project_indexbox").innerHTML=projectIndex;
-            projectIndex++;
+
         }
 
         function submitIndex(){
@@ -120,9 +126,10 @@
             <h5>+버튼을 눌러서 프로젝트를 추가해주세요!</h5>
             <input type="button" class="addprojectbtn" onclick="add_div()">
 
+            <form name="projectForm">
             <div id="project_group" style="display:none">
                 <div class="project_form">
-                    <form name="projectForm">
+
                         <label for="project_name">프로젝트 이름</label>&nbsp;&nbsp;&nbsp;
                         <input type="text" id="project_name"> <br>
                         <div class="tomargin">
@@ -137,12 +144,13 @@
                             <h6 id="project_img_ex">프로젝트 대표 이미지로 사용될 이미지를 첨부하세요.</h6>
                         </div>
                         <input type="button" value="" class="project_storebtn">
-                        <div id="project_indexbox" style="display:none"><input type="text" name="project_index" id = "project_index" style="display:none"></div>
-                    </form>
+                        <div id="project_indexbox"><input type="text" name="project_index" id = "project_index" ></div>
+
 
                 </div>
                 <input type ="button" onclick="remove_div(this)" id="project_removebtn" onclick="submitIndex()">
             </div>
+            </form>
 
 
             <div id="field"></div>

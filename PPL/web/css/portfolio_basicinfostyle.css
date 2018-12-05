@@ -123,21 +123,33 @@ input[type=radio]{
 }
 
 textarea{
+    position: absolute;
+    left: 200px;
+    top: 10px;
     width: 600px;
     height: 400px;
     border: solid darkgrey 0.5px;
     padding: 10px 10px;
     font-family: "Noto Sans CJK KR Light";
     font-size: 16px;
+
 }
 textarea::placeholder{
     font-family: "Noto Sans CJK KR Light";
     font-size: 16px;
 }
 
+.label_contents3{
+    position: absolute;;
+    left:700px;
+    top:1080px;
+    font-family: "Noto Sans CJK KR Regular";
+    font-size: 25px;
+}
+
 .bottomnav{
     position: absolute;
-    top:1400px;
+    top:1550px;
     left: 44%;
 }
 
@@ -175,4 +187,26 @@ textarea::placeholder{
     cursor: pointer;
     margin-bottom: 100px;
 }
+.career_box{
+    margin-top: 10px;
+    width: 700px; height: 500px;
+    font-size: 20px;
+    font-family: "Noto Sans CJK KR Light";
+}
 
+input[type="text"]{
+    height: 26px;
+    font-size: 15px;
+    font-family: "Noto Sans CJK KR Light";
+}
+
+.career_box textarea{
+    position: absolute;
+    left:87px; top:185px;
+    width: 400px;
+    height: 100px;
+    border: solid darkgrey 0.5px;
+    padding: 10px 10px;
+    font-family: "Noto Sans CJK KR Light";
+    font-size: 16px;
+}
