@@ -6,6 +6,7 @@ PPL-template-3
 전화번호 : my_phone
 이메일 : my_email
 학교 : my_school
+경력 : my_carrier
 (복수 - language_bar)
 할수있는 언어 : language_name
 할수있는 언어 정도 : percent_name

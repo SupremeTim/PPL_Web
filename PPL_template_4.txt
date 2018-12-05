@@ -10,13 +10,9 @@ PPL-template-4
 (복수 - language_bar)
 할수있는 언어 : language_name
 할수있는 언어 정도 : (id = percent_id), (name = percent_name)
-
-
-
-
-
 (복수- experience-many)
-경력 기간 : experience_term
+경력 기간 시작 : experience_term_start
+경력 기간 끝 : experience_term_end
 경력 이름 : experience_name
 경력 설명 : experience_content
 (복수 - project-many)
