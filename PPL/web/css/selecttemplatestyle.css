@@ -44,11 +44,40 @@
 
 }
 
-.template_box{
+@keyframes animatedBackground {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 0 100%;
+    }
+}
+
+#template_box{
     margin: auto;
     margin-top: 50px;
     width: 1000px; height:600px;
-    border: solid 1px #707070;
-
+    background-image: url("../icon/template1.png");
+    background-size: 1000px auto;
+    animation: animatedBackground 10s linear infinite alternate;
 }
 
+#backbtn{
+     position: absolute;
+     left: 200px; top: 550px;
+     width: 70px; height:70px;
+     background-image: url("../icon/selecttemplatepage_backbutton.png");
+     background-color: white;
+     background-size: 70px 70px;
+     border: none;
+ }
+
+#nextbtn{
+    position: absolute;
+    right: 200px; top: 550px;
+    width: 70px; height:70px;
+    background-image: url("../icon/selecttemplatepage_nextbutton.png");
+    background-color: white;
+    background-size: 70px 70px;
+    border: none;
+}
