@@ -49,6 +49,13 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-697751832">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -160,7 +167,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PPL_template_4" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
@@ -238,11 +245,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6290000" />
+    <option name="totallyTimeSpent" value="6298000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="0" width="652" height="686" extended-state="1" />
-    <editor active="true" />
+    <frame x="-6" y="0" width="652" height="686" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.51902837" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

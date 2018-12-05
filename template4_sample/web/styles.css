@@ -1,0 +1,540 @@
+/*TODO:    HIDE OVERFLOW Y,         */
+
+
+
+.visible{
+    visibility: visible;
+}
+
+.invisible{
+    visibility: initial;
+}
+
+#my_image_id{
+margin-top: auto;
+margin-bottom: auto;
+}
+.aboutMeWrapper{
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 10vh;
+    padding-right: 14vw;
+    padding-left: 14vw;
+    padding-bottom: 0px;
+    /*padding-top: 56.25%; 
+     (img-height / img-width * container-width) */
+                /* (853 / 1280 * 100) */
+}
+
+.introWrapper{
+    background: linear-gradient(#5B58A5,#D9D6FF);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 95vh;
+    padding-top: 70px;
+    padding-right: 35px;
+    padding-left: 35px;
+    padding-bottom: 0px;
+    /*padding-top: 56.25%; 
+     (img-height / img-width * container-width) */
+                /* (853 / 1280 * 100) */
+}
+
+.projectsWrapper{
+    background:#D9D6FF;
+    /*background: #ebcf90;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    background-repeat: no-repeat;
+    width:100%;
+    min-height: 100vh;
+    padding-top: 50px;
+    padding-right: 3vw;
+    padding-left: 3vw;
+    padding-bottom: 0px;
+    /*padding-top: 56.25%; 
+     (img-height / img-width * container-width) */
+                /* (853 / 1280 * 100) */
+}
+
+.navbarIcon{
+    margin-top: 6px;
+    margin-left: 15px;
+    margin-right: 10px;
+    height: 1.5em;
+    width: 1.5em;
+}
+
+.navbarIcon:hover{
+    transform: translateY(55px);
+    -webkit-transform: translateY(5px);
+    transition-duration: 0.2s;
+    cursor: pointer;
+    width: 2em;
+    height: 2em;
+}
+
+.contentIcon{
+    margin-top: 5px;
+    margin-left: 9px;
+    height: 3.25em;
+    width: 3.25em;
+}
+
+.contentIconn{
+    margin-top: 5px;
+    height: 3.25em;
+    width: 3.25em;
+}
+
+.contentIconnn
+{
+    margin-right: 9px;
+}
+.contentIcon:hover{
+    transform: translateY(55px);
+    -webkit-transform: translateY(5px);
+    transition-duration: 0.2s;
+    cursor: pointer;
+    width: 3.5em;
+    height: 3.5em;
+}
+
+.tooltip > .tooltip-inner {
+    margin-top: 10px;
+    background-color: #D9E5FF;
+    color: #D9D6FF;
+    opacity: 0.9;
+    padding: 3px;
+    font-size: 18px;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 3px;
+}
+
+.tooltip.bottom .tooltip-arrow {
+  top: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 0 5px 5px;
+  border-bottom-color: #000;
+}
+
+#introCol{
+    padding: 0px !important;
+    margin: 0px !important;
+
+
+}
+
+#projectsCol{
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+
+.mainTitle{
+    margin-top: 25vh;
+    margin-bottom: 5vh;
+
+    font-family: 'Pridi', serif;
+    font-size: 75px;
+    color: #eeeeee;
+    line-height: 75%;
+}
+
+.subTitle{
+    line-height: 100%;
+    font-size: 25px;
+    margin-top: 15px;
+    color: #eeeeee;
+    font-family: 'Montserrat', sans-serif;  
+}
+
+.centerIt{
+    margin:0 auto;
+    text-align: center;
+}
+
+#aboutMeCol{
+    padding: 0px !important;
+
+    margin: 0px !important;
+
+}
+
+.aboutMeHeader{
+    font-size: 25px;
+    border-bottom: 2px solid #D9D6FF;
+    margin-top: 2px;
+    margin-bottom:  5px;
+    font-family: 'Pridi', serif;
+}
+
+.aboutMeContent{
+    margin-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+
+}
+.aboutMeFrameworks{
+    margin-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.aboutMeCard{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    opacity: 0.90;
+    filter: alpha(opacity=90); /* For IE8 and earlier */
+    margin: 0 auto;
+    margin-bottom: 8vh;
+    padding: 20px;
+    padding-right: 65px;
+    position: relative;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    animation-duration: .75s;
+
+}
+
+
+
+.container-fluid {
+    overflow-x: hidden;
+}
+
+.card{
+    background:white;
+    box-shadow: -1px -1px 15px rgba(0,0,0,0.25), 1px 1px 15px rgba(0,0,0,0.25),-1px 1px 15px rgba(0,0,0,0.25), 1px -1px 15px rgba(0,0,0,0.25) ;
+    height: 100%;
+    width: 100%;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+    -webkit-transform: translateY(-5px);
+    transition-duration: 0.2s;
+    box-shadow: -1px -1px 15px rgba(0,0,0,0.4), 1px 1px 15px rgba(0,0,0,0.4),-1px 1px 15px rgba(0,0,0,0.4), 1px -1px 15px rgba(0,0,0,0.4) ;
+    cursor: pointer;
+
+}
+.cardType{
+    font-family: 'Pridi', serif;
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
+    line-height: 75%;
+    width: 100%;
+
+    margin-bottom: 5px;
+
+}
+.cardTitle{
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 7px;
+    padding-bottom: 0px;
+    margin-bottom: 2px;
+    width: 100%;
+    text-align: center;
+    line-height: 75%;
+    font-size: 25px;
+    font-family: 'Pridi', serif;
+    background-color: white;
+}
+
+.cardduration{
+    text-align: right;
+    padding-left: 12px;
+    padding-right: 12px;
+    background-color: white;
+    max-width: 100%;
+
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 12px;
+
+}
+
+.cardText{
+    padding-left: 12px;
+    padding-right: 12px;
+    background-color: white;
+    max-width: 100%;
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 12px;
+
+}
+
+#projectCard1{
+    width: 100%;
+    height: 100%;
+    alignment: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding-left: 1em;
+    padding-right: 1em;
+
+
+}
+
+#projectCard2{
+    width: 100%;
+    height: 100%;
+    alignment: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding-left: 1em;
+    padding-right: 1em;
+
+
+}
+
+#introArrow{
+    font-size:2em; 
+    color:#eeeeee;
+    margin-top: 20vh;
+    display: inline-block;
+    transform: scale(2.25,1.5);
+    -webkit-animation: mover 1.25s infinite  alternate;
+    -moz-animation: mover 1.25s infinite  alternate;
+    -o-animation: mover 1.25s infinite  alternate;
+    animation: mover 1.25s infinite  alternate;
+}
+
+
+#introArrow:hover{ 
+    font-size: 2.2em; 
+    color:white;
+}
+
+.aboutMeButton{
+    margin: 0px auto;
+    display: block;
+    background:white;
+    font-size: 20px;
+    font-family: 'Pridi', serif;
+    opacity: 0.90;
+    filter: alpha(opacity=90); /* For IE8 and earlier */
+    color: #D9D6FF;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    border: 0px;
+
+}
+
+.aboutMeButton:hover{
+
+}
+
+.control-label{
+    text-align: center;
+}
+
+#submitbutton{
+    width: 100% !important;
+}
+
+#contactCard{
+    background-color: white;
+    opacity: 0.90;
+    filter: alpha(opacity=90); /* For IE8 and earlier */
+    margin: 40px;
+    margin-top: 50px;
+    padding-top: 15px;
+    /*margin-bottom: 15vh;
+    
+    padding: 20px;
+    padding-right: 65px;
+    position: relative;*/
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    animation-duration: .75s;   
+}
+
+#contactHeader{
+        font-size: 1.75rem;
+    border-bottom: 2px solid #D9D6FF;
+    margin-top: 20px;
+    margin-bottom: 13px;
+    font-family: 'Pridi', serif;
+    text-align: center;
+    width: 80%;
+    line-height: 113%;
+
+}
+
+
+.control-label{
+    font-size: 20px !important;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+#submitbutton{
+    background-color: #D9D6FF;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    border-style: solid;
+    border-width: 4px 4px 4px 4px;
+    border-color: #D9D6FF;
+}
+
+#submitbutton:hover{
+    box-shadow: -5px -5px 15px rgba(0,0,0,0.4), 5px 5px 15px rgba(0,0,0,0.4),-5px 5px 15px rgba(0,0,0,0.4), 5px -5px 15px rgba(0,0,0,0.4) ;
+    background-color: white;
+    border-style: solid;
+    border-width: 4px 4px 4px 4px;
+    border-color: #D9D6FF;
+    color: #D9D6FF;
+}
+
+#Footer{
+    margin-bottom: 20px;
+}
+
+#FooterText{
+    margin: 0 auto;
+    padding: 0 auto;
+    text-align: center;
+    font-family: 'Pridi', serif;
+    opacity: 0.6;
+}
+
+#Website{
+    color: #D9D6FF;
+    opacity: 0.6;
+}
+
+#Website:hover{
+    transform: translateY(55px);
+    -webkit-transform: translateY(5px);
+    transition-duration: 0.2s;
+    cursor: pointer;    
+}
+
+#Github{
+    color: #0000EE;
+    opacity:0.6;
+}
+
+#Github:hover{
+    transform: translateY(55px);
+    -webkit-transform: translateY(5px);
+    transition-duration: 0.2s;
+    cursor: pointer;
+    opacity :0.6;
+}
+
+@-moz-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-15px); }
+}
+@-o-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-15px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-15px); }
+}
+
+
+@media only screen and (max-width: 1275px) {
+    /* your css of 1024 px screen size */
+    .aboutMeWrapper {
+            -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-left: 9px;
+    padding-right: 9px;
+    }
+
+    .aboutMeHeader{
+    font-size: 35px;
+    border-bottom: 2px solid #D9D6FF;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    font-family: 'Pridi', serif;
+    }
+
+    .mainTitle{
+        margin-top: 10vh;
+    }
+
+    .aboutMeContent{
+        text-align: center;
+    }
+
+    .aboutMeHeader{
+        text-align: center;
+    }
+
+    .aboutMeCard{
+        padding-right: 20px;
+    }
+
+    .cardText{
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    /* your css of 640 px screen size */
+        .aboutMeWrapper {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -1300px;
+    padding-left: 9px;
+    padding-right: 9px;
+    }
+
+    .aboutMeHeader{
+    font-size: 20px;
+    border-bottom: 2px solid #D9D6FF;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    font-family: 'Pridi', serif;
+    }
+
+    .mainTitle{
+        margin-top: 20vh;
+    }
+
+    .aboutMeContent{
+        text-align: center;
+    }
+
+    .aboutMeHeader{
+        text-align: center;
+    }
+
+    .aboutMeCard{
+        padding-right: 20px;
+    }
+
+    .cardText{
+        font-size: 17px;
+    }
+
+}
