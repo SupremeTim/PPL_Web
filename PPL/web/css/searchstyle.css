@@ -1,3 +1,35 @@
+@font-face{
+    font-family:'namsanBL';
+    src:url('../font/namsanBL.TTF');
+}
+@font-face{
+    font-family:'Noto Sans CJK KR Bold';
+    src:url('../font/NOTOSANSCJKKR-BOLD.OTF');
+}
+@font-face{
+    font-family:'Noto Sans CJK KR Black';
+    src:url('../font/NOTOSANSCJKKR-BLACK.OTF');
+}
+@font-face{
+    font-family:'Noto Sans CJK KR Demilight';
+    src:url('../font/NOTOSANSCJKKR-DEMILIGHT.OTF');
+}
+@font-face{
+    font-family:'Noto Sans CJK KR Light';
+    src:url('../font/NOTOSANSCJKKR-LIGHT.OTF');
+}
+@font-face{
+    font-family:'Noto Sans CJK KR Medium';
+    src:url('../font/NOTOSANSCJKKR-MEDIUM.OTF');
+}
+@font-face{
+    font-family:'Noto Sans CJK KR Regular';
+    src:url('../font/NOTOSANSCJKKR-REGULAR.OTF');
+}
+@font-face{
+    font-family:'Noto Sans CJK KR Thin';
+    src:url('../font/NOTOSANSCJKKR-THIN.OTF');
+}
 
 .menu#searchmenu{
     background: #707070;
@@ -38,7 +70,7 @@
 .search_btn{
     position: absolute;
     top: 390px;
-    left:1360px;
+    left:1250px;
     width: 24px; height: 24px;
     border: none;
     background-image: url(../icon/searchpage_searchicon.png);
