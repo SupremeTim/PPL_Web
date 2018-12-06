@@ -33,7 +33,7 @@
 
 .joinbox{
     width:700px;
-    height:1050px;
+    height:1100px;
     border-style: solid;
     border-width: 1px;
     border-color: #7c7c7c;
@@ -53,6 +53,7 @@
 }
 
 hr{
+    margin-top: 20px;
     border-bottom: 0px;
     width: 500px;
     color: lightgray;
@@ -101,7 +102,6 @@ select {
     padding-left: 10px;
     font-size: 18px;
     border: 1px solid #707070;
-    margin-bottom: 60px;
 }
 
 /* 각 text box 크기 정의 */
@@ -121,9 +121,17 @@ select {
     width: 500px;
 }
 
+.graduatebox input[type ="text"]{
+    width: 500px;
+}
+
 /* box 사이의 간격 조정 */
-.idbox, .pwbox1, .pwbox2, .phonebox, .birthbox{
+.idbox, .pwbox1, .pwbox2, .phonebox, .birthbox, .graduatebox{
     margin-top: 15px;
+}
+
+.graduatebox{
+    margin-bottom: 40px;
 }
 
 /* id 중복확인 버튼 */
@@ -161,7 +169,7 @@ input.joinbtn {
     background: url("../icon/joinpage_joinbtn.png") no-repeat;
     border: none;
     position: absolute;
-    top: 730px;
+    top: 780px;
     left: 340px;
     width: 160px;
     height: 60px;

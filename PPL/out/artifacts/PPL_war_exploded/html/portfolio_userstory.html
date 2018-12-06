@@ -109,9 +109,13 @@
                     </tr>
                     <tr>
                         <th><input type="checkbox" name="dev_lang" value="c" id="c"> <label for="c">C</label></th>
+                        <input type="hidden" name="c_pro">
                         <th><input type="checkbox" name="dev_lang" value="c++" id="c++"> <label for="c++">C++</label></th>
+                        <input type="hidden" name="c++_pro">
                         <th><input type="checkbox" name="dev_lang" value="java" id="java"> <label for="java">Java</label></th>
+                        <input type="hidden" name="java_pro">
                         <th><input type="checkbox" name="dev_lang" value="c#" id="c#"> <label for="c#">C#</label></th>
+                        <input type="hidden" name="c#_pro">
                         <th colspan="2"><input type="checkbox" name="develop" value="another" id="another_dl"> <label for="another_dl">그 외</label>
                             <input type="text" id="another_dl_" placeholder="입력하세요..."></th>
                     </tr>
@@ -124,7 +128,7 @@
         <div class="project_experience">
             <p class="contents_header">프로젝트 경험</p>
             <h5>+버튼을 눌러서 프로젝트를 추가해주세요!</h5>
-            <!--<input type="button" class="addprojectbtn" onclick="add_div()">-->
+            <input type="button" class="addprojectbtn" onclick="add_div()">
 
             <!--<form name="projectForm">
 
