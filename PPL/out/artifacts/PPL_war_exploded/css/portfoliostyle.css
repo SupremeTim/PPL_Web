@@ -48,7 +48,7 @@
 .portfolioview{
     position: relative;
     top:200px;
-    left:240px;
+    left:190px;
     width: 1640px;
 }
 
@@ -133,8 +133,8 @@
 }
 
 .pic {
-    max-width: 750px;
-    max-height: 400px;
+    max-width:800px;
+    max-height:450px;
     position: relative;
     overflow: hidden;
     display: inline-block;

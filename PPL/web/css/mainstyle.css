@@ -114,20 +114,17 @@ a{text-decoration: none}
 #sp{ font-size: 40px;}
 
 #imgDiv {
-    position: absolute;
-    left:45%;
-    top: 50%;
+    margin: auto;
+    margin-top: 150px;
 }
 #imgDiv img {
-    position: absolute;
-    left:45%;
-    top: 50%;
+    margin: auto;
+    margin-top: 150px;
 }
 
 .bounce{
-    position: absolute;
-    left:49%;
-    top: 85%;
+    margin: auto;
+    margin-top: 170px;
 }
 
 .main_info{
@@ -141,13 +138,13 @@ a{text-decoration: none}
 
 .infopicture{
     position: absolute;
-    left: 100px;
+    left: 150px;
     top:120px;
 }
 
 .infoposts{
     position: absolute;
-    left: 1200px;
+    left: 1050px;
     top: 60px;
 }
 
@@ -179,7 +176,7 @@ h3{
 /* first info: 스토리에 맞는 템플릿 추천*/
 .fadeInLeft{
     position: absolute;
-    left: 19.5%;
+    left: 18%;
     top:200%;
     width: 1500px;
     height: 200px;
@@ -206,7 +203,7 @@ h3{
 /* second info: 포트폴리오 자동 구성 */
 .fadeInRight{
     position: absolute;
-    left: 19.5%;
+    left:18%;
     top:240%;
     width: 1500px;
     height: 200px;
@@ -237,7 +234,7 @@ h3{
 /* third info: 채용자를 위한 검색 엔진*/
 #fadeInLeft2{
     position: absolute;
-    left: 19.5%;
+    left: 18%;
     top:280%;
     width: 1500px;
     height: 200px;
@@ -270,16 +267,15 @@ h3{
 }
 
 #imgDiv2 {
-    top: 340%;
+    margin:auto;
     width: 200px;
     margin-bottom: 100px;
-    margin-left: 25px;
+
 }
 #imgDiv2 img {
-    top: 340%;
+    margin:auto;
     width: 200px;
     margin-bottom: 100px;
-    margin-left: 25px;
 }
 
 .logoutbtn{
@@ -287,6 +283,6 @@ h3{
     font-size: 20px;
     background-color: white;
     font-family: "Noto Sans CJK KR Regular";
-
+    margin:auto;
 }
 

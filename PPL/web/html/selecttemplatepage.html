@@ -3,36 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <link href="../css/mainstyle.css" type="text/css" rel="stylesheet" />
-    <link href="../css/selecttemplatestyle.css" type="text/css" rel="stylesheet" />
+    <link href="../css/selecttemplatestyle.css?var=2" type="text/css" rel="stylesheet" />
 
     <script>
-        var index = 0;
+        var index = 1;
         function change_background()
         {
-            if(index == 0) {
+            if(index == 1) {
                 document.getElementById('template_box').style.backgroundImage = "url('../icon/template1.png')";
                 document.getElementById('backbtn').style.display ="none";
             }
-            else if(index == 1){
+            else if(index == 2){
                 document.getElementById('template_box').style.backgroundImage = "url('../icon/template2.png')";
                 document.getElementById('backbtn').style.display ="";
                 document.getElementById('nextbtn').style.display ="";
             }
-            else if(index == 2){
+            else if(index == 3){
                 document.getElementById('template_box').style.backgroundImage = "url('../icon/template3.png')";
+                document.getElementById('backbtn').style.display ="";
+                document.getElementById('nextbtn').style.display ="";
+            }
+            else if(index == 4){
+                document.getElementById('template_box').style.backgroundImage = "url('../icon/template4.png')";
                 document.getElementById('nextbtn').style.display ="none";
             }
         }
 
         function increase_index(){
             index++;
+            document.templateindexForm.template_index.value = index;
             change_background();
         }
 
         function decrease_index(){
             index--;
+            document.templateindexForm.template_index.value = index;
             change_background();
         }
+
 
     </script>
     <title>Select Template</title>
@@ -64,5 +72,12 @@
     <button id = "backbtn" onclick="decrease_index()" style="display: none"></button>
     <button id = "nextbtn" onclick="increase_index()"></button>
     <div id="template_box"> </div>
+
+    <form action="" method="" name="templateindexForm">
+        <input type="hidden" name="template_index" value="1">
+        <button id="selectbtn" onclick="mySubmit()">   </button>
+    </form>
+
+
 </body>
 </html>
