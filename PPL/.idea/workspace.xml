@@ -140,8 +140,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/html/selecttemplatepage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
+            <state relative-caret-position="513">
+              <caret line="51" column="69" lean-forward="true" selection-start-line="51" selection-start-column="69" selection-end-line="51" selection-end-column="69" />
               <folding>
                 <element signature="n#style#0;n#button#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -348,7 +348,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544086493060" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544086689549" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib/cos.jar!/" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -501,12 +501,12 @@
       <workItem from="1543912304830" duration="655000" />
       <workItem from="1543919005338" duration="20360000" />
       <workItem from="1543946924475" duration="1551000" />
-      <workItem from="1543999567183" duration="29148000" />
+      <workItem from="1543999567183" duration="29448000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="200501000" />
+    <option name="totallyTimeSpent" value="200801000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -800,8 +800,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/html/selecttemplatepage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
+        <state relative-caret-position="513">
+          <caret line="51" column="69" lean-forward="true" selection-start-line="51" selection-start-column="69" selection-end-line="51" selection-end-column="69" />
           <folding>
             <element signature="n#style#0;n#button#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
