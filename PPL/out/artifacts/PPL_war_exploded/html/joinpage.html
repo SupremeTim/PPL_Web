@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <link href="../css/mainstyle.css?var=1" type="text/css" rel="stylesheet" />
-    <link href="../css/joinstyle.css?var=1" type="text/css" rel="stylesheet" />
+    <link href="../css/joinstyle.css" type="text/css" rel="stylesheet" />
     <script type="text/javascript">
         function passwordCheck(){
             var password = document.getElementById("join_pw").value;
@@ -24,6 +24,7 @@
             var current, year, month, day, days, i, j;
             current = new Date();
             for (i = 0, j = current.getFullYear() -60; i < 60; i++, j++) FORM.year.options[i] = new Option(j, j);
+
             for (i = 0; i < 12; i++) {
                 j = (i < 9) ? '0' + (i + 1) : i + 1;
                 FORM.month.options[i] = new Option(j, j);
@@ -134,6 +135,12 @@
                     <select id="day" name="day">
                     </select>
                 </div>
+
+                <div class="graduatebox">
+                    <label for="join_graduate">최종 학력</label><br>
+                    <input type="text" id="join_graduate" name="graduate">
+                </div>
+
             </form>
                 <hr id="bottomline">
 

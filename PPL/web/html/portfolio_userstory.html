@@ -109,9 +109,13 @@
                     </tr>
                     <tr>
                         <th><input type="checkbox" name="dev_lang" value="c" id="c"> <label for="c">C</label></th>
+                        <input type="hidden" name="c_pro">
                         <th><input type="checkbox" name="dev_lang" value="c++" id="c++"> <label for="c++">C++</label></th>
+                        <input type="hidden" name="c++_pro">
                         <th><input type="checkbox" name="dev_lang" value="java" id="java"> <label for="java">Java</label></th>
+                        <input type="hidden" name="java_pro">
                         <th><input type="checkbox" name="dev_lang" value="c#" id="c#"> <label for="c#">C#</label></th>
+                        <input type="hidden" name="c#_pro">
                         <th colspan="2"><input type="checkbox" name="develop" value="another" id="another_dl"> <label for="another_dl">그 외</label>
                             <input type="text" id="another_dl_" placeholder="입력하세요..."></th>
                     </tr>
@@ -126,8 +130,9 @@
             <h5>+버튼을 눌러서 프로젝트를 추가해주세요!</h5>
             <input type="button" class="addprojectbtn" onclick="add_div()">
 
-            <form name="projectForm">
-            <div id="project_group" style="display:none">
+            <!--<form name="projectForm">
+
+                <div id="project_group" style="display:none">
                 <div class="project_form">
 
                         <label for="project_name">프로젝트 이름</label>&nbsp;&nbsp;&nbsp;
@@ -150,6 +155,28 @@
                 </div>
                 <input type ="button" onclick="remove_div(this)" id="project_removebtn" onclick="submitIndex()">
             </div>
+            </form>-->
+
+            <form name="projectForm">
+                <div id="project_group">
+                    <div class="project_form">
+                        <label for="project_name">프로젝트 이름</label>&nbsp;&nbsp;&nbsp;
+                        <input type="text" id="project_name"> <br>
+                        <div class="tomargin">
+                            <label for="project_info" margin-top="15px">프로젝트 설명</label>&nbsp;&nbsp;&nbsp;
+                            <textarea id="project_info"></textarea> <br>
+                        </div>
+                        <label for="project_link">프로젝트 링크</label>&nbsp;&nbsp;&nbsp;
+                        <input type="text" id="project_link" placeholder="ex) Github 링크"><br>
+                        <div class="tomargin">
+                            <label>첨부파일</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="file">
+                            <h6 id="project_img_ex">프로젝트 대표 이미지로 사용될 이미지를 첨부하세요.</h6>
+                        </div>
+                        <input type="submit" value="" class="project_storebtn">
+                    </div>
+                   <!-- <input type ="button" onclick="remove_div(this)" id="project_removebtn" onclick="submitIndex()">-->
+                </div>
             </form>
 
 
