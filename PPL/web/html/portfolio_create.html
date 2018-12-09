@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <link href="../css/mainstyle.css?" type="text/css" rel="stylesheet" />
-    <link href="../css/portfolio_createstyle.css" type="text/css" rel="stylesheet" />
+    <link href="../css/portfolio_createstyle.css?var=3" type="text/css" rel="stylesheet" />
 
     <script>
         function getportfolioName() {
             var portfolio_name = window.prompt("포트폴리오의 이름을 입력해주세요")
+            portfolio_name = document.getElementById('portfolio_name').innerHTML
             if(portfolio_name != null){
                 location.href="portfolio_complete.html"
             }
@@ -42,15 +43,18 @@
     <div  class="contents">
         <p class="contents_header">당신에게 꼭 맞는 포트폴리오가 생성되었어요!</p>
         <div id="porfolio">
+
         </div>
 
     </div>
 
     <div class="bottomnav">
-        <!--다시 생성-->
-        <input type="button" class="recreatebtn" >
-        <input type="button" class="createbtn" onclick="getportfolioName()">
-        <a href="portfolio.html"><input type="button" class="cancelbtn"></a>
+        <form>
+            <input type="button" class="recreatebtn" >
+            <input type="button" class="createbtn" onclick="getportfolioName()">
+            <a href="portfolio.html"><input type="button" class="cancelbtn"></a>
+            <input type="hidden" id="portfolio_name">
+        </form>
     </div>
 </body>
 </html>

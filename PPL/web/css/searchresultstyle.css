@@ -61,8 +61,8 @@
 
 .portfolio_box{
     margin-top: 50px;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 210px;
+    margin-right: 160px;
     height: 1100px;
     display: grid;
     grid-template-columns: 48% 4% 48%;
