@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i" rel="stylesheet">
+    <link href="styles/normalize.css" type="text/css" rel="stylesheet">
+    <link href="styles/main.css" type="text/css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="images/logo/favicon.ico"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <title>PPL</title>
+  </head>
+  <body>
+    <div id="window-loading-cover">
+      <i class="fa fa-spinner fa-pulse fa-3x fa-fw" aria-hidden="true"></i>
+    </div>
+    <header class="banner">
+      <div class="logo-container">
+        <a class="logo__link" href="#projects">
+          <object class="logo__svg" type="image/svg+xml" data="images/logo/marina-sideri-logo.svg" tabindex="0">
+              </object>
+        </a>
+        <h1 class="logo__my-name">SeungMin</h1>
+      </div >
+      <nav class="navigation">
+        <ul class="navigation__list">
+          <li class="navigation__list__item"><a href="#about">About</a></li>
+          <li class="navigation__list__item"><a href="#projects">Projects</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="container main-container">
+      <section id="about" class="container about-container target-offset container--background-dark">
+          <h2 class="about-container__heading">Welcome to my portfolio website</h2>
+          <div class="about-container__text">
+            <p class="profile-details">I am a full-stack JavaScript web developer based in London, currently learning and working at <a class = "about-container__link" href="http://www.foundersandcoders.com/" target="_blank">Founders &amp; Coders</a>.</p>
+            <p class="profile-details">With a civil engineering background and more than three years of experience in technical consultancy roles, I decided to transfer my engineering thinking into the creative world of web development.</p>
+            <p class="profile-details">I love building apps and websites and learning new technologies. Check out some of <a class = "about-container__link" href="#projects"> my projects</a>.</p>
+          </div>
+      </section>
+      <section id="projects" class="container project-container target-offset ">
+        <h2 class="project-container__heading">
+          Projects
+        </h2>
+        <div class="project-container__row row">
+          <figure id="escher-tribute" class="project-container__figure col-4">
+            <div class="project-container__figure-cover" visibility="hidden">
+              <p class="project-container__figure-description">
+                <img class="project-container__tech-icon" src="images/tech-icons/solo-icon.png" alt="Individual project">
+                <img class="project-container__tech-icon" src="images/tech-icons/HTML5_Logo_64.png" alt="HTML5 logo">
+                <img class="project-container__tech-icon" src="images/tech-icons/CSS3_Logo.png" alt="CSS3 logo"> <br>
+                A tribute web page to the graphic artist, M.C. Escher. Created using Bootstrap, as part of the <a href="https://www.freecodecamp.com" target="_blank">freeCodeCamp</a> front-end course.
+                Deployed on <a href="https://marisid.github.io/escher_tribute/" target="_blank">GitHub pages</a>.
+              </p>
+            </div>
+            <figcaption class="project-container__caption"><a class="project-container__link" href="https://github.com/marisid/escher_tribute" target="_blank">Tribute page to M.S. Escher</a></figcaption>
+            <img src="images/projects/escher_tribute/escher_tribute_ipad_crop.png" alt="Desktop view of my tribute page for M.S. Escher">
+          </figure>
+          <figure id="quote-machine" class="project-container__figure col-4">
+            <div class="project-container__figure-cover" visibility="hidden">
+              <p class="project-container__figure-description">
+                <img class="project-container__tech-icon" src="images/tech-icons/solo-icon.png" alt="Individual project">
+                <img class="project-container__tech-icon" src="images/tech-icons/HTML5_Logo_64.png" alt="HTML5 logo">
+                <img class="project-container__tech-icon" src="images/tech-icons/CSS3_Logo.png" alt="CSS3 logo">
+                <img class="project-container__tech-icon" src="images/tech-icons/JS_Logo.png" alt="JavaScript logo"> <br>
+                A random quote generator. Created using jQuery, as part of the <a href="https://www.freecodecamp.com" target="_blank">freeCodeCamp</a> front-end course.
+                Deployed on <a href="https://marisid.github.io/quote_machine/" target="_blank">GitHub pages</a>.
+              </p>
+            </div>
+            <figcaption class="project-container__caption"><a class="project-container__link" href="https://github.com/marisid/quote_machine/" target="_blank">Quote machine generator</a></figcaption>
+            <img src="images/projects/quote_machine/quote_machine_closeup.png" alt="View of my quote machine generator website">
+          </figure>
+          <figure id="autocomplete-app" class="project-container__figure col-4">
+            <div class="project-container__figure-cover" visibility="hidden">
+              <p class="project-container__figure-description">
+                <img class="project-container__tech-icon" src="images/tech-icons/team-icon.png" alt="Team project">
+                <img class="project-container__tech-icon" src="images/tech-icons/nodejs-logo.png" alt="Node.js logo">
+                <img class="project-container__tech-icon" src="images/tech-icons/HTML5_Logo_64.png" alt="HTML5 logo">
+                <img class="project-container__tech-icon" src="images/tech-icons/CSS3_Logo.png" alt="CSS3 logo"> <br>
+                A word finder app with autcomplete functionality and Google search redirection.
+                Created as a team project for the <a href="http://www.foundersandcoders.com/" target="_blank">Founders &amp; Coders</a> course using a Node server setup. Deployed on <a href="https://nodetojoy-autocomplete.herokuapp.com/" target="_blank">Heroku</a>.
+              </p>
+            </div>
+            <figcaption class="project-container__caption"><a class="project-container__link" href="https://github.com/NodeGroup2/autocomplete-project" target="_blank">Autocomplete app</a></figcaption>
+            <img src="images/projects/autocomplete/autocomplete.gif" alt="Demo of autocomplete app">
+          </figure>
+        </div>
+        <div class="project-container__row row">
+          <figure id="globe-town-devs" class="project-container__figure col-3 ">
+            <div class="project-container__figure-cover" visibility="hidden">
+              <p class="project-container__figure-description">
+                <img class="project-container__tech-icon" src="images/tech-icons/team-icon.png" alt="Team project">
+                <img class="project-container__tech-icon" src="images/tech-icons/HTML5_Logo_64.png" alt="HTML5 logo">
+                <img class="project-container__tech-icon" src="images/tech-icons/CSS3_Logo.png" alt="CSS3 logo">
+                <img class="project-container__tech-icon" src="images/tech-icons/JS_Logo.png" alt="JavaScript logo"> <br>
+                A portfolio website to showcase <a href="http://www.foundersandcoders.com/" target="_blank">Founders &amp; Coders</a> to the world.
+                Built as a team project based on a responsive web design and vanilla client-side JavaScript.
+                Deployed on <a href="https://globetowndevs.github.io/blog/" target="_blank">GitHub pages</a>.
+              </p>
+            </div>
+            <figcaption class="project-container__caption"><a class="project-container__link" href="https://github.com/GlobeTownDevs/blog/">Globe town devs website</a></figcaption>
+            <img src="images/projects/globe-town-devs/globe-town-devs-portfolio-mobile.jpeg" alt="Mobile view of Globe Town Devs">
+          </figure>
+          <figure id="weather-app" class="project-container__figure col-3">
+            <div class="project-container__figure-cover" visibility="hidden">
+              <p class="project-container__figure-description">
+                <img class="project-container__tech-icon" src="images/tech-icons/solo-icon.png" alt="Individual project">
+                <img class="project-container__tech-icon" src="images/tech-icons/HTML5_Logo_64.png" alt="HTML5 logo">
+                <img class="project-container__tech-icon" src="images/tech-icons/CSS3_Logo.png" alt="CSS3 logo">
+                <img class="project-container__tech-icon" src="images/tech-icons/JS_Logo.png" alt="JavaScript logo"> <br>
+                A web app that queries a weather API and shows the current weather based on the user location.
+                Created using jQuery, as part of the <a href="https://www.freecodecamp.com" target="_blank">freeCodeCamp</a> front-end course.
+              </p>
+            </div>
+            <figcaption class="project-container__caption"><a class="project-container__link" href="http://codepen.io/marisid/pen/zBZoJg" target="_blank">Weather app</a></figcaption>
+            <img src="images/projects/weather_app/weather-app-close-up.png" alt="View of weather app">
+          </figure>
+          <figure id="grags-app" class="project-container__figure col-3">
+            <div class="project-container__figure-cover" visibility="hidden">
+              <p class="project-container__figure-description">
+                <img class="project-container__tech-icon" src="images/tech-icons/team-icon.png" alt="Team project">
+                <img class="project-container__tech-icon" src="images/tech-icons/hapi-logo.png" alt="hapi.js logo">
+                <img class="project-container__tech-icon" src="images/tech-icons/HTML5_Logo_64.png" alt="HTML5 logo">
+                <img class="project-container__tech-icon" src="images/tech-icons/CSS3_Logo.png" alt="CSS3 logo"> <br>
+                A web app to search for recipes and request Tesco shopping lists for recipe ingredients.
+                Built as a team project for the <a href="http://www.foundersandcoders.com/" target="_blank">Founders &amp; Coders</a> course using a hapi server setup and querying data from two web APIs.
+                Deployed on <a href="https://grags.herokuapp.com/" target="_blank">Heroku</a>.
+              </p>
+            </div>
+            <figcaption class="project-container__caption"><a class="project-container__link" href="https://github.com/NodeGroup2/GRAGS" target="_blank">Get Recipes And Groceries app</a></figcaption>
+            <img src="images/projects/grags/grags-app-mobile-1.png" alt="Mobile view of grags app">
+          </figure>
+          <figure id="news-visualiser" class="project-container__figure col-3">
+            <div class="project-container__figure-cover" visibility="hidden">
+              <p class="project-container__figure-description">
+                <img class="project-container__tech-icon" src="images/tech-icons/team-icon.png" alt="Team project">
+                <img class="project-container__tech-icon" src="images/tech-icons/HTML5_Logo_64.png" alt="HTML5 logo">
+                <img class="project-container__tech-icon" src="images/tech-icons/CSS3_Logo.png" alt="CSS3 logo">
+                <img class="project-container__tech-icon" src="images/tech-icons/JS_Logo.png" alt="JavaScript logo"> <br>
+                A responsive news feed website that queries two web APIs using vanilla client-side JavaScript.
+                Built as a team project for the <a href="http://www.foundersandcoders.com/" target="_blank">Founders &amp; Coders</a> course.
+              </p>
+            </div>
+            <figcaption class="project-container__caption"><a class="project-container__link" href="https://github.com/GlobeTownDevs/api" target="_blank">News visualiser website</a></figcaption>
+            <img src="images/projects/news-visualiser/news-visualiser-mobile.jpeg" alt="Mobile view of news visualiser app">
+          </figure>
+        </div>
+        <div class="project-container__row row">
+          <figure id="ocdb-app" class="project-container__figure col-6">
+            <div class="project-container__figure-cover" visibility="hidden">
+              <p class="project-container__figure-description">
+                <img class="project-container__tech-icon" src="images/tech-icons/team-icon.png" alt="Team project">
+                <img class="project-container__tech-icon" src="images/tech-icons/hapi-logo.png" alt="hapi.js logo">
+                <img class="project-container__tech-icon" src="images/tech-icons/postgresql-logo.gif" alt="PostgreSQL logo">
+                <img class="project-container__tech-icon" src="images/tech-icons/handlebars-logo.png" alt="Handlebars.js logo">
+                <img class="project-container__tech-icon" src="images/tech-icons/HTML5_Logo_64.png" alt="HTML5 logo">
+                <img class="project-container__tech-icon" src="images/tech-icons/CSS3_Logo.png" alt="CSS3 logo"> <br>
+                A platform for writing and sharing reviews of coding resources.
+                Built as a team project for the <a href="http://www.foundersandcoders.com/" target="_blank">Founders &amp; Coders</a> course using a hapi server setup, a PostgreSQL local database, Handlebars templates and session management using cookies.
+              </p>
+            </div>
+            <figcaption class="project-container__caption"><a class="project-container__link" href="https://github.com/NodeGroup2/OCD-B" target="_blank">Open Code Database app</a></figcaption>
+            <img src="images/projects/ocd-b/ocdb.gif" alt="Demo of OCD-B app">
+          </figure>
+          <figure id="gitpom-app" class="project-container__figure col-6">
+            <div class="project-container__figure-cover" visibility="hidden">
+              <p class="project-container__figure-description">
+                <img class="project-container__tech-icon" src="images/tech-icons/team-icon.png" alt="Team project">
+                <img class="project-container__tech-icon" src="images/tech-icons/hapi-logo.png" alt="hapi.js logo">
+                <img class="project-container__tech-icon" src="images/tech-icons/handlebars-logo.png" alt="Handlebars.js logo">
+                <img class="project-container__tech-icon" src="images/tech-icons/HTML5_Logo_64.png" alt="HTML5 logo">
+                <img class="project-container__tech-icon" src="images/tech-icons/CSS3_Logo.png" alt="CSS3 logo"> <br>
+                A time management app which integrates with GitHub using OAuth.
+                Built as a team project for the <a href="http://www.foundersandcoders.com/" target="_blank">Founders &amp; Coders</a> course using a hapi server setup, Handlebars templates and session management using cookies.
+              </p>
+            </div>
+            <figcaption class="project-container__caption"><a class="project-container__link" href="https://github.com/The-Authenticators/gitpom" target="_blank">GitPom app</a></figcaption>
+            <img src="images/projects/gitpom/gitpom.gif" alt="Demo of GitPom app">
+          </figure>
+        </div>
+      </section>
+
+    </div>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
