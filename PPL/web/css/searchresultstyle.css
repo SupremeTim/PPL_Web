@@ -65,7 +65,7 @@
     margin-right: 160px;
     height: 1100px;
     display: grid;
-    grid-template-columns: 48% 4% 48%;
+    grid-template-columns: 50% 50%;
 }
 
 .result_portfolio{
@@ -74,7 +74,6 @@
     text-align: center;
     font-family: "Noto Sans CJK KR Regular";
     font-size: 24px;
-
 }
 
 .result_portfolio img{
@@ -157,4 +156,11 @@ h3{
     font-family: "Noto Sans CJK KR Regular";
     color: white;
     font-size: 20px;
+}
+
+.pic a{
+    font-family: "Noto Sans CJK KR Regular";
+    font-size: 20px;
+    color: #466bff;
+    margin-top: 50px;
 }
